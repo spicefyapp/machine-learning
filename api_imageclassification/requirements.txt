@@ -1,0 +1,7 @@
+Flask
+gunicorn
+Werkzeug
+tensorflow
+numpy
+pillow
+nltk

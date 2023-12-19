@@ -1,0 +1,2901 @@
+{
+  "intents": [
+    {
+      "tag": "tidak_tahu",
+      "patterns": [
+        "Tidak tahu",
+        "Saya bingung",
+        "Apa yang harus saya lakukan?"
+      ],
+      "responses": [
+        "Maaf, saya tidak tahu jawabannya.",
+        "Mungkin saya tidak bisa membantu dengan pertanyaan itu."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["Hai", "Hello", "Halo"],
+      "responses": [
+        "Hi, namaku SpiceBot. Aku siap menjawab pertanyaan mu seputar rempah",
+        "Halo, namaku SpiceBot. Aku siap menjawab pertanyaan mu seputar rempah",
+        "Halo, namaku SpiceBot. Silahkan masukkan pertanyaan mu dan aku akan menjawabnya"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pagi",
+      "patterns": ["selamat pagi", "pagi", "Good Morning"],
+      "responses": [
+        "Selamat pagi, Aku siap menjawab pertanyaan mu seputar rempah",
+        "Pagi, Aku siap menjawab pertanyaan mu seputar rempah",
+        "Good morning, Silahkan masukkan pertanyaan mu dan aku akan menjawabnya"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day"
+      ],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {
+      "tag": "nama",
+      "patterns": [
+        "siapa namamu?",
+        "aku dapat memanggilmu dengan sebutan apa?",
+        "whats your name?"
+      ],
+      "responses": [
+        "Kamu dapat memanggilku SpiceBot",
+        "Aku SpiceBot!",
+        "Namaku SpiceBot."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "rempah",
+      "patterns": [
+        "apa itu rempah",
+        "rempah",
+        "rempah adalah",
+        "rempah itu apa?"
+      ],
+      "responses": [
+        "Rempah adalah bahan makanan yang diambil dari bagian tumbuhan seperti akar, batang, buah, bunga, biji, kulit kayu, atau daun yang memiliki rasa, aroma, dan sifat penyedap. Rempah-rempah sering digunakan dalam masakan untuk memberikan cita rasa khas, aroma, dan warna pada hidangan. Beberapa rempah juga dikenal karena sifat-sifat kesehatan dan kegunaannya dalam pengobatan tradisional. Rempah-rempah tidak hanya memberikan rasa dan aroma pada masakan, tetapi beberapa juga diketahui memiliki manfaat kesehatan, termasuk sifat antioksidan, antiinflamasi, dan antimikroba."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatRempah",
+      "patterns": [
+        "Apa manfaat kesehatan dari rempah?",
+        "Apakah rempah memiliki manfaat kesehatan?",
+        "Bagaimana rempah dapat bermanfaat untuk kesehatan?"
+      ],
+      "responses": [
+        "Beberapa rempah diketahui memiliki manfaat kesehatan, termasuk sifat antioksidan, antiinflamasi, dan antimikroba. Namun, konsultasikan dengan ahli kesehatan sebelum mengonsumsi dalam jumlah besar."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "jenisRempah",
+      "patterns": [
+        "Sebutkan beberapa jenis rempah",
+        "Apa saja rempah yang umum digunakan?",
+        "Rempah apa yang sering dipakai dalam masakan?"
+      ],
+      "responses": [
+        "Beberapa jenis rempah yang umum digunakan meliputi lada hitam, kunyit, jahe, kayu manis, bubuk cabai merah, kemiri, bubuk cengkeh, kayu secang, sereh (serai), dan daun ketumbar."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "adasBintang",
+      "patterns": [
+        "Adas bintang",
+        "Apa itu adas bintang?",
+        "Pengertian adas bintang",
+        "Deskripsi adas bintang",
+        "Adas bintang itu apa"
+      ],
+      "responses": [
+        "Adas bintang, juga dikenal sebagai bunga lawang atau bunga pekak, adalah rempah yang berasal dari bunga pohon Illicium verum. Rempah ini memiliki bentuk bintang dengan 8 hingga 12 \"lengan\" yang panjangnya sekitar 3 hingga 4 cm. Bagian utama yang digunakan adalah buahnya yang keras dan kering."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaRasaAdasBintang",
+      "patterns": [
+        "Aroma dan rasa Adas bintang",
+        "Aroma adas bintang",
+        "Rasa adas bintang",
+        "Bagaimana aroma adas bintang?",
+        "Bagaimana rasa adas bintang?",
+        "Bagaimana aroma dan rasa adas bintang?"
+      ],
+      "responses": [
+        "Adas bintang memiliki aroma yang kompleks, mirip dengan anis, dengan sentuhan manis dan pedas. Rasa adas bintang juga unik dan dapat memberikan nuansa manis pada hidangan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanAdasBIntang",
+      "patterns": [
+        "Manfaat Adas bintang",
+        "khasiat adas bintang",
+        "Apa manfaat adas bintang",
+        "Apa khasiat adas bintang?"
+      ],
+      "responses": [
+        "Pencernaan: Adas bintang dapat membantu meredakan masalah pencernaan, seperti perut kembung dan gangguan pencernaan. Anti-inflamasi: Beberapa penelitian menunjukkan bahwa adas bintang memiliki sifat anti-inflamasi yang dapat membantu meredakan peradangan. Antioksidan: Senyawa-senyawa dalam adas bintang memiliki sifat antioksidan, yang dapat membantu melawan radikal bebas di dalam tubuh."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "minumanOlahanAdasBintang",
+      "patterns": [
+        "Minuman Adas bintang",
+        "Olahan Adas bintang",
+        "Adas bintang bisa dibuat apa?",
+        "Minuman dari Adas bintang",
+        "Olahan dari Adas bintang"
+      ],
+      "responses": [
+        "Adas bintang dapat diolah menjadi minuman kesehatan, seperti teh. Teh adas bintang dapat memberikan manfaat untuk pencernaan dan memberikan rasa yang unik. Anda dapat mencampur adas bintang dengan rempah-rempah lain atau menggunakan sendirian untuk membuat minuman yang menyegarkan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatAdasBintang",
+      "patterns": [
+        "Adas bintang dapat digunakan untuk obat penyakit apa",
+        "Adas bintang obat untuk apa?",
+        "obat dari Adas bintang"
+      ],
+      "responses": [
+        "Adas bintang tradisional digunakan dalam pengobatan tradisional untuk masalah pencernaan seperti perut kembung. Namun, konsultasikan dengan ahli kesehatan sebelum menggunakannya sebagai pengganti obat medis."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukAdasBintang",
+      "patterns": [
+        "Bentuk Adas bintang",
+        "Ciri-ciri adas bintang",
+        "Adas bintang bentuknya apa?",
+        "Ciri adas bintang"
+      ],
+      "responses": [
+        "Adas bintang memiliki bentuk bintang dengan duri-duri kecil yang menonjol. Buahnya keras dan kering dengan warna cokelat tua. Bagian dalamnya dapat terlihat seperti biji dengan warna yang lebih terang."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaAdasBintang",
+      "patterns": [
+        "Kandungan adas bintang",
+        "Kandungan kimia adas bintang",
+        "Apa kandungan kimia adas bintang"
+      ],
+      "responses": [
+        "Adas bintang mengandung senyawa-senyawa kimia seperti anetol, estragol, dan safrol. Senyawa-senyawa ini memberikan karakteristik aroma dan rasa pada rempah ini."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilAdasBintang",
+      "patterns": [
+        "Daerah penghasil adas bintang",
+        "Penghasil adas bintang",
+        "Daerah adas bintang",
+        "Dimana daerah penghasil adas bintang",
+        "dimana adas bintang",
+        "dimana dapat menemukan adas bintang"
+      ],
+      "responses": [
+        "Adas bintang dapat ditemui di beberapa daerah di Indonesia, terutama di wilayah-wilayah yang memiliki iklim tropis. Beberapa daerah penghasil adas bintang di Indonesia antara lain adalah Jawa, Sumatera, dan Sulawesi."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "andaliman",
+      "patterns": [
+        "Andaliman",
+        "Apa itu Andaliman?",
+        "Pengertian Andaliman",
+        "Deskripsi Andaliman",
+        "Andaliman itu apa"
+      ],
+      "responses": [
+        "Andaliman adalah rempah yang berasal dari keluarga tanaman Sichuan Pepper. Rempah ini tumbuh di kawasan Asia Tenggara, khususnya di Indonesia, terutama di wilayah Batak di Sumatera Utara. Andaliman dikenal dengan bijinya yang unik, berbentuk seperti buah prem."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaRasaAndaliman",
+      "patterns": [
+        "Aroma dan rasa andaliman",
+        "Aroma andaliman",
+        "Rasa andaliman",
+        "Bagaimana aroma andaliman?",
+        "Bagaimana rasa andaliman?",
+        "Bagaimana aroma dan rasa andaliman?"
+      ],
+      "responses": [
+        "Andaliman memiliki aroma segar dan citrus yang kuat dengan sentuhan pedas dan kesemutan di lidah. Rasa andaliman sering dijelaskan sebagai campuran antara citrus, mentol, dan rasa pedas yang khas."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanAndaliman",
+      "patterns": [
+        "Manfaat andaliman",
+        "khasiat andaliman",
+        "Apa manfaat andaliman",
+        "Apa khasiat andaliman?"
+      ],
+      "responses": [
+        "Pencernaan: Beberapa orang percaya bahwa andaliman dapat membantu meredakan masalah pencernaan dan merangsang nafsu makan. Antioksidan: Sebagai rempah-rempah, andaliman mengandung senyawa antioksidan yang dapat membantu melawan radikal bebas di tubuh."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "minumanOlahanAndaliman",
+      "patterns": [
+        "Minuman andaliman",
+        "Olahan andaliman",
+        "andaliman bisa dibuat apa?",
+        "Minuman dari andaliman",
+        "Olahan dari andaliman"
+      ],
+      "responses": [
+        "Andaliman dapat diolah menjadi minuman kesehatan, seperti teh atau infus. Minuman ini dapat memberikan sensasi pedas dan segar yang unik."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatAndaliman",
+      "patterns": [
+        "andaliman dapat digunakan untuk obat penyakit apa",
+        "andaliman obat untuk apa?",
+        "obat dari andaliman"
+      ],
+      "responses": [
+        "Andaliman secara tradisional digunakan oleh masyarakat Batak sebagai obat untuk masalah pencernaan, seperti perut kembung. Namun, perlu diketahui bahwa penggunaan andaliman sebagai obat belum sepenuhnya didukung oleh bukti ilmiah."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukAndaliman",
+      "patterns": [
+        "Bentuk andaliman",
+        "Ciri-ciri andaliman",
+        "andaliman bentuknya apa?",
+        "Ciri andaliman"
+      ],
+      "responses": [
+        "Andaliman memiliki biji yang unik, berbentuk seperti buah prem dengan rambut halus di sekitarnya. Warna bijinya dapat bervariasi antara merah, oranye, hingga cokelat."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaAndaliman",
+      "patterns": [
+        "Kandungan andaliman",
+        "Kandungan kimia andaliman",
+        "Apa kandungan kimia andaliman"
+      ],
+      "responses": [
+        "Kandungan kimia dalam andaliman termasuk senyawa-senyawa seperti hidroksikalkon, amida, dan terpenoid. Senyawa-senyawa inilah yang memberikan karakteristik aroma dan rasa pada andaliman."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilAndaliman",
+      "patterns": [
+        "Daerah penghasil andaliman",
+        "Penghasil andaliman",
+        "Daerah andaliman",
+        "Dimana daerah penghasil andaliman",
+        "dimana andaliman",
+        "dimana dapat menemukan andaliman"
+      ],
+      "responses": [
+        "Andaliman ditemukan terutama di wilayah Batak, Sumatera Utara, Indonesia. Tanaman ini tumbuh subur di dataran tinggi, khususnya di daerah pegunungan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "asamJawa",
+      "patterns": [
+        "asam jawa",
+        "Apa itu asam jawa?",
+        "Pengertian asam jawa",
+        "Deskripsi asam jawa",
+        "asam jawa itu apa"
+      ],
+      "responses": [
+        "Asam jawa, juga dikenal sebagai tamarind, adalah buah yang berasal dari pohon tamarindus indica. Buah ini memiliki cangkang keras yang melindungi daging buah yang berserat dan berair. Asam jawa umumnya digunakan sebagai bahan tambahan dalam masakan untuk memberikan rasa asam dan manis."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaAsamJawa",
+      "patterns": [
+        "Aroma dan rasa asam jawa",
+        "Aroma asam jawa",
+        "Rasa asam jawa",
+        "Bagaimana aroma asam jawa?",
+        "Bagaimana rasa asam jawa?",
+        "Bagaimana aroma dan rasa asam jawa?"
+      ],
+      "responses": [
+        "Asam jawa memiliki aroma yang khas, segar, dan asam. Rasa buah ini umumnya asam dan manis, tergantung pada tingkat kematangan buah. Aromanya yang khas memberikan kontribusi signifikan pada masakan dan minuman."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanAsamJawa",
+      "patterns": [
+        "Manfaat asam jawa",
+        "khasiat asam jawa",
+        "Apa manfaat asam jawa",
+        "Apa khasiat asam jawa?"
+      ],
+      "responses": [
+        "Sumber Antioksidan: Asam jawa mengandung antioksidan, yang dapat membantu melawan radikal bebas di dalam tubuh. Pencernaan: Kandungan serat dalam asam jawa dapat mendukung kesehatan pencernaan dan mengurangi sembelit. Vitamin C: Buah ini mengandung vitamin C, yang penting untuk sistem kekebalan tubuh."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "minumanOlahanAsamJawa",
+      "patterns": [
+        "Minuman asam jawa",
+        "Olahan asam jawa",
+        "asam jawa bisa dibuat apa?",
+        "Minuman dari asam jawa",
+        "Olahan dari asam jawa"
+      ],
+      "responses": [
+        "Asam jawa dapat diolah menjadi minuman kesehatan, seperti jus atau infus. Minuman ini tidak hanya memberikan rasa segar, tetapi juga memberikan manfaat kesehatan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatAsamJawa",
+      "patterns": [
+        "asam jawa dapat digunakan untuk obat penyakit apa",
+        "asam jawa obat untuk apa?",
+        "obat dari asam jawa"
+      ],
+      "responses": [
+        "Penyakit Pencernaan: Asam jawa sering digunakan dalam pengobatan tradisional untuk meredakan masalah pencernaan, seperti sakit perut dan sembelit. Infeksi dan Radang: Kandungan antioksidan dapat membantu dalam meredakan peradangan dan infeksi."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukAsamJawa",
+      "patterns": [
+        "Bentuk asam jawa",
+        "Ciri-ciri asam jawa",
+        "asam jawa bentuknya apa?",
+        "Ciri asam jawa"
+      ],
+      "responses": [
+        "Buah asam jawa memiliki cangkang keras dan berwarna cokelat. Daging buahnya berserat dan berair dengan biji-biji kecil di dalamnya. Buah ini dapat berbentuk polong atau berkelompok, tergantung pada varietasnya."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaAsamJawa",
+      "patterns": [
+        "Kandungan asam jawa",
+        "Kandungan kimia asam jawa",
+        "Apa kandungan kimia asam jawa"
+      ],
+      "responses": [
+        "Asam jawa mengandung asam tartarat, asam sitrat, vitamin C, serat, dan berbagai senyawa lainnya yang memberikan rasa dan manfaat kesehatan pada buah ini."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilAsamJawa",
+      "patterns": [
+        "Daerah penghasil asam jawa",
+        "Penghasil asam jawa",
+        "Daerah asam jawa",
+        "Dimana daerah penghasil asam jawa",
+        "dimana asam jawa",
+        "dimana dapat menemukan asam jawa"
+      ],
+      "responses": [
+        "Asam jawa dapat ditemukan di seluruh Indonesia, terutama di daerah tropis. Buah ini tumbuh baik di iklim hangat dan lembap. Beberapa daerah penghasil asam jawa di Indonesia antara lain Jawa, Sumatera, dan Kalimantan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bawangMerah",
+      "patterns": [
+        "bawang merah",
+        "Apa itu bawang merah?",
+        "Pengertian bawang merah",
+        "Deskripsi bawang merah",
+        "bawang merah itu apa"
+      ],
+      "responses": [
+        "Bawang merah (Allium cepa var. aggregatum) adalah salah satu jenis bawang yang memiliki bulbus berwarna merah dan bentuk yang lebih kecil dibandingkan dengan bawang bombay. Bawang merah umumnya digunakan sebagai bahan masakan untuk memberikan rasa dan aroma khas pada hidangan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaBawangMerah",
+      "patterns": [
+        "Aroma dan rasa bawang merah",
+        "Aroma bawang merah",
+        "Rasa bawang merah",
+        "Bagaimana aroma bawang merah?",
+        "Bagaimana rasa bawang merah?",
+        "Bagaimana aroma dan rasa bawang merah?"
+      ],
+      "responses": [
+        "Bawang merah memiliki aroma yang khas, pedas ringan, dan sedikit manis. Rasa bawang merah lebih ringan dan manis dibandingkan dengan bawang bombay. Aromanya dapat meningkatkan cita rasa masakan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanBawangMerah",
+      "patterns": [
+        "Manfaat bawang merah",
+        "khasiat bawang merah",
+        "Apa manfaat bawang merah",
+        "Apa khasiat bawang merah?"
+      ],
+      "responses": [
+        "Antioksidan: Bawang merah mengandung senyawa antioksidan, seperti flavonoid, yang dapat membantu melawan radikal bebas. Anti-inflamasi: Beberapa senyawa dalam bawang merah memiliki sifat anti-inflamasi, yang dapat membantu meredakan peradangan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "minumanOlahanBawangMerah",
+      "patterns": [
+        "Minuman bawang merah",
+        "Olahan bawang merah",
+        "bawang merah bisa dibuat apa?",
+        "Minuman dari bawang merah",
+        "Olahan dari bawang merah"
+      ],
+      "responses": [
+        "Bawang merah tidak umum digunakan sebagai bahan dalam minuman kesehatan, namun ekstrak bawang merah dapat ditambahkan ke jus atau smoothie untuk memberikan rasa dan manfaat kesehatan tambahan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatBawangMerah",
+      "patterns": [
+        "bawang merah dapat digunakan untuk obat penyakit apa",
+        "bawang merah obat untuk apa?",
+        "obat dari bawang merah"
+      ],
+      "responses": [
+        "Sistem Pencernaan: Bawang merah dapat membantu meningkatkan pencernaan dan mengurangi risiko gangguan pencernaan. Tekanan Darah: Beberapa penelitian menunjukkan bahwa bawang merah dapat membantu mengontrol tekanan darah."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukBawangMerah",
+      "patterns": [
+        "Bentuk bawang merah",
+        "Ciri-ciri bawang merah",
+        "bawang merah bentuknya apa?",
+        "Ciri bawang merah"
+      ],
+      "responses": [
+        "Bawang merah memiliki bulbus berwarna merah, dan bagian dalamnya terdiri dari lapisan-lapisan tipis. Ukuran bawang merah umumnya lebih kecil dibandingkan dengan bawang bombay, dan kulitnya tipis dan berwarna merah ungu."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaBawangMerah",
+      "patterns": [
+        "Kandungan bawang merah",
+        "Kandungan kimia bawang merah",
+        "Apa kandungan kimia bawang merah"
+      ],
+      "responses": [
+        "Bawang merah mengandung berbagai senyawa kimia, termasuk flavonoid, sulfur, dan senyawa organosulfur seperti allicin. Senyawa-senyawa ini memberikan manfaat kesehatan pada bawang merah."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilBawangMerah",
+      "patterns": [
+        "Daerah penghasil bawang merah",
+        "Penghasil bawang merah",
+        "Daerah bawang merah",
+        "Dimana daerah penghasil bawang merah",
+        "dimana bawang merah",
+        "dimana dapat menemukan bawang merah"
+      ],
+      "responses": [
+        "Bawang merah dapat ditemui di seluruh Indonesia, tetapi beberapa daerah penghasilnya antara lain adalah Brebes di Jawa Tengah, Brebes di Jawa Barat, dan daerah-daerah lain yang memiliki iklim yang sesuai untuk pertumbuhan bawang. Bawang merah tumbuh baik di daerah dengan tanah yang subur dan iklim tropis."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bawangPutih",
+      "patterns": [
+        "bawang putih",
+        "Apa itu bawang putih?",
+        "Pengertian bawang putih",
+        "Deskripsi bawang putih",
+        "bawang putih itu apa"
+      ],
+      "responses": [
+        "Bawang putih (Allium sativum) adalah tanaman umbi yang digunakan sebagai rempah dan bahan masakan di berbagai masakan di seluruh dunia. Tanaman ini memiliki umbi yang terdiri dari beberapa siung dengan kulit luar yang tipis dan daging dalam yang dapat dipisahkan menjadi siung-siung individu."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaBawangPutih",
+      "patterns": [
+        "Aroma dan rasa bawang putih",
+        "Aroma bawang putih",
+        "Rasa bawang putih",
+        "Bagaimana aroma bawang putih?",
+        "Bagaimana rasa bawang putih?",
+        "Bagaimana aroma dan rasa bawang putih?"
+      ],
+      "responses": [
+        "Bawang putih memiliki aroma yang kuat dan tajam, khususnya saat diiris atau dimasak. Rasa bawang putih segar adalah pedas dan tajam, sementara saat dimasak, rasa ini dapat berubah menjadi manis dan lembut."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanBawangPutih",
+      "patterns": [
+        "Manfaat bawang putih",
+        "khasiat bawang putih",
+        "Apa manfaat bawang putih",
+        "Apa khasiat bawang putih?"
+      ],
+      "responses": [
+        "Antioksidan: Bawang putih mengandung senyawa antioksidan, termasuk allicin, yang dapat membantu melawan radikal bebas di tubuh. Menurunkan Kolesterol: Beberapa penelitian menunjukkan bahwa bawang putih dapat membantu menurunkan kadar kolesterol darah. Penguat Sistem Kekebalan Tubuh: Bawang putih dikaitkan dengan peningkatan sistem kekebalan tubuh."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "minumanOlahanBawangPutih",
+      "patterns": [
+        "Minuman bawang putih",
+        "Olahan bawang putih",
+        "bawang putih bisa dibuat apa?",
+        "Minuman dari bawang putih",
+        "Olahan dari bawang putih"
+      ],
+      "responses": [
+        "Bawang putih jarang digunakan langsung dalam minuman kesehatan karena rasa dan aromanya yang kuat. Namun, beberapa orang memasukkan bawang putih dalam jus atau smoothie untuk mendapatkan manfaat kesehatannya."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatBawangPutih",
+      "patterns": [
+        "bawang putih dapat digunakan untuk obat penyakit apa",
+        "bawang putih obat untuk apa?",
+        "obat dari bawang putih"
+      ],
+      "responses": [
+        "Penyakit Jantung: Bawang putih dapat membantu mengelola risiko penyakit jantung dengan menurunkan tekanan darah dan kolesterol. nfeksi: Sifat antibakteri dan antivirus bawang putih dapat membantu melawan infeksi, terutama di saluran pernapasan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukBawangPutih",
+      "patterns": [
+        "Bentuk bawang putih",
+        "Ciri-ciri bawang putih",
+        "bawang putih bentuknya apa?",
+        "Ciri bawang putih"
+      ],
+      "responses": [
+        "Bawang putih memiliki umbi yang terdiri dari beberapa siung dengan kulit luar yang tipis dan cangkang yang mudah dipisahkan. Setiap siung memiliki bentuk yang hampir oval dan warna putih atau krem."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaBawangPutih",
+      "patterns": [
+        "Kandungan bawang putih",
+        "Kandungan kimia bawang putih",
+        "Apa kandungan kimia bawang putih"
+      ],
+      "responses": [
+        "Bawang putih mengandung berbagai senyawa kimia, termasuk allicin, ajoene, dan alliinase, yang memberikan sifat khas pada rempah ini."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilBawangPutih",
+      "patterns": [
+        "Daerah penghasil bawang putih",
+        "Penghasil bawang putih",
+        "Daerah bawang putih",
+        "Dimana daerah penghasil bawang putih",
+        "dimana bawang putih",
+        "dimana dapat menemukan bawang putih"
+      ],
+      "responses": [
+        "Bawang putih dapat ditemukan di berbagai daerah di Indonesia, termasuk Jawa, Sumatera, dan daerah lain yang memiliki iklim yang sesuai untuk pertumbuhan tanaman bawang. Beberapa daerah penghasil bawang putih di Indonesia antara lain Brebes di Jawa Tengah dan Brebes di Jawa Barat."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "BijiAdas",
+      "patterns": [
+        "biji adas",
+        "Apa itu biji adas?",
+        "Pengertian biji adas",
+        "Deskripsi biji adas",
+        "biji adas itu apa"
+      ],
+      "responses": [
+        "Biji adas, juga dikenal sebagai biji jintan, adalah rempah yang berasal dari tanaman adas (Carum carvi). Tanaman ini menghasilkan biji kecil berwarna cokelat yang memiliki aroma dan rasa yang khas. Biji adas digunakan dalam berbagai masakan dan minuman sebagai bumbu."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaBijiAdas",
+      "patterns": [
+        "Aroma dan rasa biji adas",
+        "Aroma biji adas",
+        "Rasa biji adas",
+        "Bagaimana aroma biji adas?",
+        "Bagaimana rasa biji adas?",
+        "Bagaimana aroma dan rasa biji adas?"
+      ],
+      "responses": [
+        "Biji adas memiliki aroma yang harum dan tajam, dengan rasa yang sedikit manis dan pedas. Aroma dan rasa biji adas dapat memberikan sentuhan khas pada hidangan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanBijiAdas",
+      "patterns": [
+        "Manfaat biji adas",
+        "khasiat biji adas",
+        "Apa manfaat biji adas",
+        "Apa khasiat biji adas?"
+      ],
+      "responses": [
+        "Pencernaan: Biji adas telah digunakan secara tradisional untuk meredakan masalah pencernaan seperti perut kembung dan gangguan pencernaan. Anti-inflamasi: Senyawa-senyawa dalam biji adas dapat memiliki sifat anti-inflamasi yang membantu meredakan peradangan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "minumanOlahanBijiAdas",
+      "patterns": [
+        "Minuman biji adas",
+        "Olahan biji adas",
+        "biji adas bisa dibuat apa?",
+        "Minuman dari biji adas",
+        "Olahan dari biji adas",
+        "Minuman obat biji adas",
+        "Olahan obat biji adas",
+        "biji adas bisa dibuat apa?",
+        "Minuman obat dari biji adas",
+        "Olahan obat dari biji adas"
+      ],
+      "responses": [
+        "Teh Adas: Teh adas dapat dihasilkan dengan merendam biji adas dalam air panas. Teh ini sering dikonsumsi untuk membantu pencernaan dan memberikan rasa yang menyegarkan. Olahan Makanan: Biji adas dapat digunakan dalam berbagai masakan, seperti roti, kue, dan hidangan berbahan dasar daging."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatBijiAdas",
+      "patterns": [
+        "biji adas dapat digunakan untuk obat penyakit apa",
+        "biji adas obat untuk apa?",
+        "obat dari biji adas"
+      ],
+      "responses": [
+        "Masalah Pencernaan: Biji adas dapat membantu meredakan gangguan pencernaan, termasuk perut kembung dan gas. Infeksi Saluran Pernapasan: Beberapa orang menggunakan biji adas untuk meredakan gejala infeksi saluran pernapasan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukBijiAdas",
+      "patterns": [
+        "Bentuk biji adas",
+        "Ciri-ciri biji adas",
+        "biji adas bentuknya apa?",
+        "Ciri biji adas"
+      ],
+      "responses": [
+        "Biji adas berukuran kecil, berwarna cokelat tua, dan memiliki bentuk yang hampir oval. Mereka memiliki tekstur yang keras dan licin."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaBijiAdas",
+      "patterns": [
+        "Kandungan biji adas",
+        "Kandungan kimia biji adas",
+        "Apa kandungan kimia biji adas"
+      ],
+      "responses": [
+        "Biji adas mengandung berbagai senyawa kimia seperti karvon dan limonene, yang memberikan sifat khas pada biji ini. Senyawa-senyawa ini juga memberikan aroma dan rasa khas."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilBijiAdas",
+      "patterns": [
+        "Daerah penghasil biji adas",
+        "Penghasil biji adas",
+        "Daerah biji adas",
+        "Dimana daerah penghasil biji adas",
+        "dimana biji adas",
+        "dimana dapat menemukan biji adas"
+      ],
+      "responses": [
+        "Biji adas dapat tumbuh di berbagai daerah dengan iklim yang sesuai. Di Indonesia, tanaman ini dapat ditemui di beberapa wilayah, termasuk Jawa dan Sumatera."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "BijiKetumbar",
+      "patterns": [
+        "biji ketumbar",
+        "Apa itu biji ketumbar?",
+        "Pengertian biji ketumbar",
+        "Deskripsi biji ketumbar",
+        "biji ketumbar itu apa"
+      ],
+      "responses": [
+        "Biji ketumbar berasal dari tanaman Coriandrum sativum, yang juga dikenal sebagai ketumbar. Biji ini digunakan sebagai rempah dalam masakan dan memiliki ciri khas tertentu yang memberikan rasa dan aroma khas pada hidangan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaBijiKetumbar",
+      "patterns": [
+        "Aroma dan rasa biji ketumbar",
+        "Aroma biji ketumbar",
+        "Rasa biji ketumbar",
+        "Bagaimana aroma biji ketumbar?",
+        "Bagaimana rasa biji ketumbar?",
+        "Bagaimana aroma dan rasa biji ketumbar?"
+      ],
+      "responses": [
+        "Biji ketumbar memiliki aroma yang segar, harum, dan sedikit citrus. Rasa biji ketumbar adalah campuran antara manis, pahit, dan sedikit pedas."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanBijiKetumbar",
+      "patterns": [
+        "Manfaat biji ketumbar",
+        "khasiat biji ketumbar",
+        "Apa manfaat biji ketumbar",
+        "Apa khasiat biji ketumbar?"
+      ],
+      "responses": [
+        "Pencernaan: Biji ketumbar dapat membantu meredakan masalah pencernaan seperti perut kembung, gas, dan gangguan pencernaan lainnya. Antioksidan: Biji ketumbar mengandung senyawa antioksidan, seperti quercetin, yang membantu melawan radikal bebas di tubuh."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanKetumbar",
+      "patterns": [
+        "Minuman biji ketumbar",
+        "Olahan biji ketumbar",
+        "biji ketumbar bisa dibuat apa?",
+        "Minuman dari biji ketumbar",
+        "Olahan dari biji ketumbar",
+        "Minuman obat biji ketumbar",
+        "Olahan obat biji ketumbar",
+        "biji ketumbar bisa dibuat apa?",
+        "Minuman obat dari biji ketumbar",
+        "Olahan obat dari biji ketumbar"
+      ],
+      "responses": [
+        "Teh Ketumbar: Teh ketumbar dapat dihasilkan dengan merendam biji ketumbar dalam air panas. Teh ini dapat membantu meredakan masalah pencernaan dan memberikan rasa yang menyegarkan. Olahan Makanan: Biji ketumbar digunakan dalam berbagai masakan, mulai dari kari hingga salad, memberikan aroma dan rasa unik."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatKetumbar",
+      "patterns": [
+        "biji ketumbar dapat digunakan untuk obat penyakit apa",
+        "biji ketumbar obat untuk apa?",
+        "obat dari biji ketumbar"
+      ],
+      "responses": [
+        "Masalah Pencernaan: Biji ketumbar dapat membantu meredakan masalah pencernaan seperti perut kembung, mual, dan gangguan pencernaan lainnya. Anti-inflamasi: Beberapa senyawa dalam biji ketumbar diketahui memiliki sifat anti-inflamasi, yang dapat membantu meredakan peradangan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukBijiKetumbar",
+      "patterns": [
+        "Bentuk biji ketumbar",
+        "Ciri-ciri biji ketumbar",
+        "biji ketumbar bentuknya apa?",
+        "Ciri biji ketumbar"
+      ],
+      "responses": [
+        "Biji ketumbar berukuran kecil, bulat, dan memiliki warna cokelat yang khas. Mereka memiliki tekstur yang keras dan dapat digerus untuk mengeluarkan aroma dan rasa yang lebih intens."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaBijiKetumbar",
+      "patterns": [
+        "Kandungan biji ketumbar",
+        "Kandungan kimia biji ketumbar",
+        "Apa kandungan kimia biji ketumbar"
+      ],
+      "responses": [
+        "Biji ketumbar mengandung berbagai senyawa kimia seperti linalool, geraniol, and camphor yang memberikan karakteristik aroma dan rasa. Mereka juga mengandung asam ascorbic, asam sitrat, dan zat besi."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilBijiKetumbar",
+      "patterns": [
+        "Daerah penghasil biji ketumbar",
+        "Penghasil biji ketumbar",
+        "Daerah biji ketumbar",
+        "Dimana daerah penghasil biji ketumbar",
+        "dimana biji ketumbar",
+        "dimana dapat menemukan biji ketumbar"
+      ],
+      "responses": [
+        "Ketumbar dapat tumbuh di berbagai daerah di Indonesia dengan iklim tropis. Beberapa daerah penghasil ketumbar di Indonesia antara lain Jawa, Sumatera, dan Bali."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cabai",
+      "patterns": [
+        "cabai",
+        "Apa itu cabai?",
+        "Pengertian cabai",
+        "Deskripsi cabai",
+        "cabai itu apa"
+      ],
+      "responses": [
+        "Cabai adalah rempah yang berasal dari tanaman Capsicum annuum dan Capsicum frutescens. Cabai memiliki berbagai variasi, mulai dari yang tidak pedas hingga sangat pedas, dan memiliki warna yang bervariasi, termasuk merah, kuning, hijau, dan bahkan ungu."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaCabai",
+      "patterns": [
+        "Aroma dan rasa cabai",
+        "Aroma cabai",
+        "Rasa cabai",
+        "Bagaimana aroma cabai?",
+        "Bagaimana rasa cabai?",
+        "Bagaimana aroma dan rasa cabai?"
+      ],
+      "responses": [
+        "Cabai memiliki aroma yang tajam dan pedas yang khas. Rasa cabai sangat bervariasi tergantung pada jenisnya, tetapi umumnya memberikan sensasi pedas, tajam, dan kadang-kadang sedikit manis."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanCabai",
+      "patterns": [
+        "Manfaat cabai",
+        "khasiat cabai",
+        "Apa manfaat cabai",
+        "Apa khasiat cabai?"
+      ],
+      "responses": [
+        "Peningkatan Metabolisme: Cabai mengandung senyawa capsaicin yang dapat meningkatkan metabolisme dan membantu pembakaran lemak. Pengurangan Nyeri: Capsaicin juga diketahui memiliki sifat analgesik yang dapat membantu mengurangi rasa sakit. Sumber Vitamin C: Cabai juga merupakan sumber vitamin C yang baik untuk sistem kekebalan tubuh."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanCabai",
+      "patterns": [
+        "Minuman cabai",
+        "Olahan cabai",
+        "cabai bisa dibuat apa?",
+        "Minuman dari cabai",
+        "Olahan dari cabai",
+        "Minuman obat cabai",
+        "Olahan obat cabai",
+        "cabai bisa dibuat apa?",
+        "Minuman obat dari cabai",
+        "Olahan obat dari cabai"
+      ],
+      "responses": [
+        "Sambal: Sambal, yang terbuat dari cabai, bawang, dan bumbu lainnya, adalah saus pedas yang sering digunakan dalam masakan. Sup Tomat Cabai: Sup tomat dengan tambahan cabai dapat memberikan rasa pedas dan meningkatkan sirkulasi darah. Infus Cabai: Dalam beberapa budaya, cabai dijadikan infus sebagai obat tradisional untuk meredakan masuk angin atau merangsang nafsu makan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatCabai",
+      "patterns": [
+        "cabai dapat digunakan untuk obat penyakit apa",
+        "cabai obat untuk apa?",
+        "obat dari cabai"
+      ],
+      "responses": [
+        "Nyeri Sendi: Capsaicin dalam cabai dapat digunakan topikal untuk meredakan nyeri sendi. Sakit Kepala: Beberapa orang mengonsumsi cabai sebagai cara alami untuk meredakan sakit kepala."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukCabai",
+      "patterns": [
+        "Bentuk cabai",
+        "Ciri-ciri cabai",
+        "cabai bentuknya apa?",
+        "Ciri cabai"
+      ],
+      "responses": [
+        "Cabai memiliki berbagai bentuk dan ukuran, mulai dari yang kecil dan lancip hingga yang besar dan tumpul. Warna cabai juga bervariasi, mencakup merah, kuning, hijau, oranye, dan ungu."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaCabai",
+      "patterns": [
+        "Kandungan cabai",
+        "Kandungan kimia cabai",
+        "Apa kandungan kimia cabai"
+      ],
+      "responses": [
+        "Kandungan kimia utama dalam cabai adalah capsaicin, senyawa yang memberikan rasa pedas. Selain itu, cabai juga mengandung vitamin C, vitamin A, dan senyawa antioksidan lainnya."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilCabai",
+      "patterns": [
+        "Daerah penghasil cabai",
+        "Penghasil cabai",
+        "Daerah cabai",
+        "Dimana daerah penghasil cabai",
+        "dimana cabai",
+        "dimana dapat menemukan cabai"
+      ],
+      "responses": [
+        "Cabai dapat tumbuh di berbagai daerah di Indonesia, dan beberapa daerah penghasil cabai antara lain adalah Jawa, Sumatera, dan Sulawesi."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cengkeh",
+      "patterns": [
+        "cengkeh",
+        "Apa itu cengkeh?",
+        "Pengertian cengkeh",
+        "Deskripsi cengkeh",
+        "cengkeh itu apa"
+      ],
+      "responses": [
+        "Cengkeh adalah bunga kering yang berasal dari tanaman cengkeh (Syzygium aromaticum). Tanaman ini menghasilkan bunga yang diambil dalam bentuk kering dan merupakan rempah yang telah digunakan selama berabad-abad dalam berbagai budaya di seluruh dunia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaCengkeh",
+      "patterns": [
+        "Aroma dan rasa cengkeh",
+        "Aroma cengkeh",
+        "Rasa cengkeh",
+        "Bagaimana aroma cengkeh?",
+        "Bagaimana rasa cengkeh?",
+        "Bagaimana aroma dan rasa cengkeh?"
+      ],
+      "responses": [
+        "Cengkeh memiliki aroma yang kuat, tajam, dan hangat. Rasa cengkeh bersifat pedas dan sedikit pahit, memberikan sentuhan khas pada masakan dan minuman."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanCengkeh",
+      "patterns": [
+        "Manfaat cengkeh",
+        "khasiat cengkeh",
+        "Apa manfaat cengkeh",
+        "Apa khasiat cengkeh?"
+      ],
+      "responses": [
+        "Antioksidan: Cengkeh mengandung senyawa-senyawa antioksidan seperti eugenol, yang membantu melawan radikal bebas di tubuh. Anti-inflamasi: Eugenol juga memiliki sifat anti-inflamasi, yang dapat membantu meredakan peradangan. Anestesi Lokal: Beberapa produk obat kumur mengandung minyak cengkeh karena efek anestesi lokalnya."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanCengkeh",
+      "patterns": [
+        "Minuman cengkeh",
+        "Olahan cengkeh",
+        "cengkeh bisa dibuat apa?",
+        "Minuman dari cengkeh",
+        "Olahan dari cengkeh",
+        "Minuman obat cengkeh",
+        "Olahan obat cengkeh",
+        "cengkeh bisa dibuat apa?",
+        "Minuman obat dari cengkeh",
+        "Olahan obat dari cengkeh"
+      ],
+      "responses": [
+        "Teh Cengkeh: Teh cengkeh dapat dihasilkan dengan merendam bunga cengkeh kering dalam air panas. Teh ini dikonsumsi untuk manfaat kesehatan seperti meredakan sakit tenggorokan. Masakan Rendang: Cengkeh sering digunakan dalam masakan rendang, memberikan rasa yang khas pada hidangan tersebut."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatCengkeh",
+      "patterns": [
+        "cengkeh dapat digunakan untuk obat penyakit apa",
+        "cengkeh obat untuk apa?",
+        "obat dari cengkeh"
+      ],
+      "responses": [
+        "Sakit Gigi: Minyak cengkeh dapat digunakan untuk meredakan nyeri gigi karena memiliki sifat anestesi lokal. Sakit Tenggorokan: Cengkeh dapat membantu meredakan gejala sakit tenggorokan dan batuk."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukCengkeh",
+      "patterns": [
+        "Bentuk cengkeh",
+        "Ciri-ciri cengkeh",
+        "cengkeh bentuknya apa?",
+        "Ciri cengkeh"
+      ],
+      "responses": [
+        "Cengkeh memiliki bentuk bunga kecil yang kering, berwarna cokelat hingga hitam. Bunga ini memiliki tangkai panjang dan ujung yang terbuka."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaCengkeh",
+      "patterns": [
+        "Kandungan cengkeh",
+        "Kandungan kimia cengkeh",
+        "Apa kandungan kimia cengkeh"
+      ],
+      "responses": [
+        "Minyak esensial cengkeh mengandung eugenol, β-caryophyllene, dan sejumlah senyawa lain yang memberikan aroma dan rasa khas."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilCengkeh",
+      "patterns": [
+        "Daerah penghasil cengkeh",
+        "Penghasil cengkeh",
+        "Daerah cengkeh",
+        "Dimana daerah penghasil cengkeh",
+        "dimana cengkeh",
+        "dimana dapat menemukan cengkeh"
+      ],
+      "responses": [
+        "Cengkeh berasal dari Maluku, Indonesia, dan saat ini masih menjadi salah satu produsen utama di dunia. Beberapa daerah penghasil cengkeh di Indonesia meliputi Maluku, Sulawesi, dan Nusa Tenggara."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Ketumbar",
+      "patterns": [
+        "ketumbar",
+        "Apa itu ketumbar?",
+        "Pengertian ketumbar",
+        "Deskripsi ketumbar",
+        "ketumbar itu apa"
+      ],
+      "responses": [
+        "Ketumbar, atau disebut juga coriander, adalah rempah yang berasal dari biji tanaman Coriandrum sativum. Selain biji, daun dari tanaman ini juga dapat digunakan sebagai bahan masakan dengan cita rasa yang khas."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaKetumbar",
+      "patterns": [
+        "Aroma dan rasa ketumbar",
+        "Aroma ketumbar",
+        "Rasa ketumbar",
+        "Bagaimana aroma ketumbar?",
+        "Bagaimana rasa ketumbar?",
+        "Bagaimana aroma dan rasa ketumbar?"
+      ],
+      "responses": [
+        "Ketumbar memiliki aroma yang harum dan rasa yang ringan dengan sentuhan citrus. Baik biji maupun daun ketumbar sering digunakan dalam masakan untuk memberikan cita rasa yang unik."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanKetumbar",
+      "patterns": [
+        "Manfaat ketumbar",
+        "khasiat ketumbar",
+        "Apa manfaat ketumbar",
+        "Apa khasiat ketumbar?"
+      ],
+      "responses": [
+        "Pencernaan: Ketumbar dapat membantu mempromosikan pencernaan dan meredakan masalah pencernaan seperti gas dan kembung. Anti-inflamasi: Senyawa dalam ketumbar memiliki sifat anti-inflamasi yang dapat membantu mengurangi peradangan. Sumber Nutrisi: Ketumbar mengandung berbagai nutrisi termasuk vitamin K, vitamin C, dan serat."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanKetumbar",
+      "patterns": [
+        "Minuman ketumbar",
+        "Olahan ketumbar",
+        "ketumbar bisa dibuat apa?",
+        "Minuman dari ketumbar",
+        "Olahan dari ketumbar",
+        "Minuman obat ketumbar",
+        "Olahan obat ketumbar",
+        "ketumbar bisa dibuat apa?",
+        "Minuman obat dari ketumbar",
+        "Olahan obat dari ketumbar"
+      ],
+      "responses": [
+        "Pasta Ketumbar: Pasta atau bubuk ketumbar sering digunakan dalam berbagai masakan dan kari. Teh Ketumbar: Teh daun ketumbar dapat diseduh dan diminum untuk manfaat kesehatan, terutama untuk pencernaan yang sehat."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatKetumbar",
+      "patterns": [
+        "ketumbar dapat digunakan untuk obat penyakit apa",
+        "ketumbar obat untuk apa?",
+        "obat dari ketumbar"
+      ],
+      "responses": [
+        "Masalah Pencernaan: Ketumbar dapat membantu meredakan masalah pencernaan seperti gas dan kembung. Anti-inflamasi: Senyawa anti-inflamasi dalam ketumbar dapat membantu mengurangi peradangan. Sumber Antioksidan: Ketumbar mengandung antioksidan yang dapat melawan radikal bebas."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukKetumbar",
+      "patterns": [
+        "Bentuk ketumbar",
+        "Ciri-ciri ketumbar",
+        "ketumbar bentuknya apa?",
+        "Ciri ketumbar"
+      ],
+      "responses": [
+        "Ketumbar memiliki biji yang kecil dan bulat, berwarna cokelat. Daun ketumbar berbentuk seperti daun peterseli. Biji ketumbar sering digunakan sebagai bumbu masakan, sementara daunnya dapat dicincang dan ditambahkan ke hidangan segar."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaKetumbar",
+      "patterns": [
+        "Kandungan ketumbar",
+        "Kandungan kimia ketumbar",
+        "Apa kandungan kimia ketumbar"
+      ],
+      "responses": [
+        "Ketumbar mengandung senyawa seperti linalool, alpha-pinene, dan beta-phellandrene. Biji ketumbar juga kaya akan minyak esensial yang memberikan aroma khas."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilKetumbar",
+      "patterns": [
+        "Daerah penghasil ketumbar",
+        "Penghasil ketumbar",
+        "Daerah ketumbar",
+        "Dimana daerah penghasil ketumbar",
+        "dimana ketumbar",
+        "dimana dapat menemukan ketumbar"
+      ],
+      "responses": [
+        "Ketumbar ditanam di berbagai daerah di Indonesia, dan beberapa daerah penghasil ketumbar antara lain adalah Jawa, Sumatera, dan Bali."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Salam",
+      "patterns": [
+        "salam",
+        "Apa itu daun salam?",
+        "Pengertian daun salam",
+        "Deskripsi daun salam",
+        "daun salam itu apa"
+      ],
+      "responses": [
+        "Daun salam, atau sering disebut juga sebagai daun salam India, adalah daun dari tanaman Laurus nobilis. Daun ini memiliki aroma harum dan sering digunakan sebagai bumbu dalam masakan, terutama dalam hidangan berkuah atau berbumbu."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaSalam",
+      "patterns": [
+        "Aroma dan rasa daun salam",
+        "Aroma daun salam",
+        "Rasa daun salam",
+        "Bagaimana aroma daun salam?",
+        "Bagaimana rasa daun salam?",
+        "Bagaimana aroma dan rasa daun salam?"
+      ],
+      "responses": [
+        "Daun salam memiliki aroma yang harum, segar, dan sedikit manis. Rasa daun salam memberikan sentuhan bumbu yang khas pada masakan, sering digunakan dalam masakan berkuah dan kari."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanSalam",
+      "patterns": [
+        "Manfaat daun salam",
+        "khasiat daun salam",
+        "Apa manfaat daun salam",
+        "Apa khasiat daun salam?"
+      ],
+      "responses": [
+        "Pemeliharaan Kesehatan Kulit: Daun salam mengandung antioksidan dan senyawa anti-inflamasi yang dapat bermanfaat untuk kesehatan kulit. Peningkatan Sistem Pencernaan: Daun salam dapat membantu meningkatkan sistem pencernaan dan meredakan masalah pencernaan seperti gas."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanSalam",
+      "patterns": [
+        "Minuman daun salam",
+        "Olahan daun salam",
+        "daun salam bisa dibuat apa?",
+        "Minuman dari daun salam",
+        "Olahan dari daun salam",
+        "Minuman obat daun salam",
+        "Olahan obat daun salam",
+        "daun salam bisa dibuat apa?",
+        "Minuman obat dari daun salam",
+        "Olahan obat dari daun salam"
+      ],
+      "responses": [
+        "Teh Daun Salam: Teh daun salam dapat dihasilkan dengan merendam daun salam kering dalam air panas. Teh ini sering diminum untuk manfaat kesehatan, termasuk untuk meredakan masalah pencernaan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatSalam",
+      "patterns": [
+        "daun salam dapat digunakan untuk obat penyakit apa",
+        "daun salam obat untuk apa?",
+        "obat dari daun salam"
+      ],
+      "responses": [
+        "Antioksidan: Daun salam mengandung antioksidan yang dapat membantu melawan radikal bebas di tubuh. Pemeliharaan Kulit: Senyawa dalam daun salam dapat memberikan manfaat untuk kesehatan kulit. Pemeliharaan Pencernaan: Daun salam dapat membantu meredakan masalah pencernaan seperti gas dan kembung."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukSalam",
+      "patterns": [
+        "Bentuk daun salam",
+        "Ciri-ciri daun salam",
+        "daun salam bentuknya apa?",
+        "Ciri daun salam"
+      ],
+      "responses": [
+        "Daun salam berbentuk oval dengan permukaan yang mengkilap. Ukuran daun dapat bervariasi, tetapi umumnya memiliki panjang sekitar 5 hingga 10 cm. Daun salam biasanya digunakan dalam bentuk kering dalam masakan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaSalam",
+      "patterns": [
+        "Kandungan daun salam",
+        "Kandungan kimia daun salam",
+        "Apa kandungan kimia daun salam"
+      ],
+      "responses": [
+        "Daun salam mengandung minyak esensial, tannin, dan senyawa flavonoid. Minyak esensial daun salam memberikan aroma khas pada rempah ini."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilSalam",
+      "patterns": [
+        "Daerah penghasil daun salam",
+        "Penghasil daun salam",
+        "Daerah daun salam",
+        "Dimana daerah penghasil daun salam",
+        "dimana daun salam",
+        "dimana dapat menemukan daun salam"
+      ],
+      "responses": [
+        "Daun salam dapat ditemukan di berbagai daerah di Indonesia, termasuk Jawa, Sumatera, dan Bali."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Jahe",
+      "patterns": [
+        "jahe",
+        "Apa itu jahe?",
+        "Pengertian jahe",
+        "Deskripsi jahe",
+        "jahe itu apa"
+      ],
+      "responses": [
+        "Jahe adalah rimpang tanaman Zingiber officinale yang memiliki cita rasa pedas dan aroma harum. Jahe sering digunakan sebagai rempah dalam masakan dan minuman, serta dikenal memiliki berbagai manfaat kesehatan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaJahe",
+      "patterns": [
+        "Aroma dan rasa jahe",
+        "Aroma jahe",
+        "Rasa jahe",
+        "Bagaimana aroma jahe?",
+        "Bagaimana rasa jahe?",
+        "Bagaimana aroma dan rasa jahe?"
+      ],
+      "responses": [
+        "Jahe memiliki aroma yang khas, pedas, dan hangat. Rasa jahe bersifat pedas dengan sentuhan manis, memberikan karakteristik unik pada masakan dan minuman yang mengandung jahe."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanJahe",
+      "patterns": [
+        "Manfaat jahe",
+        "khasiat jahe",
+        "Apa manfaat jahe",
+        "Apa khasiat jahe?"
+      ],
+      "responses": [
+        "Pemeliharaan Pencernaan: Jahe dapat membantu meredakan masalah pencernaan seperti mual dan gas. Anti-inflamasi: Senyawa dalam jahe memiliki sifat anti-inflamasi yang dapat membantu mengurangi peradangan. Peningkatan Kekebalan Tubuh: Jahe dapat mendukung sistem kekebalan tubuh."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanJahe",
+      "patterns": [
+        "Minuman jahe",
+        "Olahan jahe",
+        "jahe bisa dibuat apa?",
+        "Minuman dari jahe",
+        "Olahan dari jahe",
+        "Minuman obat jahe",
+        "Olahan obat jahe",
+        "jahe bisa dibuat apa?",
+        "Minuman obat dari jahe",
+        "Olahan obat dari jahe"
+      ],
+      "responses": [
+        "Wedang Jahe: Minuman tradisional Indonesia yang terbuat dari jahe, gula merah, dan rempah lainnya. Teh Jahe: Teh jahe dapat diseduh dan diminum untuk meredakan masalah pencernaan atau sebagai minuman hangat yang menyegarkan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatJahe",
+      "patterns": [
+        "jahe dapat digunakan untuk obat penyakit apa",
+        "jahe obat untuk apa?",
+        "obat dari jahe"
+      ],
+      "responses": [
+        "Mual: Jahe dapat membantu meredakan mual, terutama pada kondisi seperti mabuk perjalanan atau mual hamil. Nyeri Sendi: Sifat anti-inflamasi jahe dapat membantu meredakan nyeri sendi. Pilek dan Batuk: Jahe dapat membantu meredakan gejala pilek dan batuk."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukJahe",
+      "patterns": [
+        "Bentuk jahe",
+        "Ciri-ciri jahe",
+        "jahe bentuknya apa?",
+        "Ciri jahe"
+      ],
+      "responses": [
+        "Jahe memiliki bentuk rimpang yang kasar dengan kulit cokelat atau kuning. Di dalamnya, jahe memiliki daging yang berwarna kuning atau putih tergantung pada jenisnya. Jahe sering digunakan dalam bentuk segar, serbuk, atau ekstrak."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaJahe",
+      "patterns": [
+        "Kandungan jahe",
+        "Kandungan kimia jahe",
+        "Apa kandungan kimia jahe"
+      ],
+      "responses": [
+        "Jahe mengandung senyawa aktif seperti gingerol, shogaol, dan zingerone. Senyawa ini memberikan aroma, rasa, dan manfaat kesehatan pada jahe."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilJahe",
+      "patterns": [
+        "Daerah penghasil jahe",
+        "Penghasil jahe",
+        "Daerah jahe",
+        "Dimana daerah penghasil jahe",
+        "dimana jahe",
+        "dimana dapat menemukan jahe"
+      ],
+      "responses": [
+        "Jahe dapat tumbuh di berbagai daerah tropis, dan beberapa daerah penghasil jahe antara lain adalah Jawa, Sumatera, Sulawesi, dan Kalimantan di Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Kapulaga",
+      "patterns": [
+        "kapulaga",
+        "Apa itu kapulaga?",
+        "Pengertian kapulaga",
+        "Deskripsi kapulaga",
+        "kapulaga itu apa"
+      ],
+      "responses": [
+        "Kapulaga adalah biji dari tanaman kapulaga (Elettaria cardamomum) yang digunakan sebagai rempah dalam masakan dan minuman. Kapulaga memiliki aroma harum dan rasa yang unik, sering digunakan dalam berbagai hidangan, termasuk kari dan kue-kue."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaKapulaga",
+      "patterns": [
+        "Aroma dan rasa kapulaga",
+        "Aroma kapulaga",
+        "Rasa kapulaga",
+        "Bagaimana aroma kapulaga?",
+        "Bagaimana rasa kapulaga?",
+        "Bagaimana aroma dan rasa kapulaga?"
+      ],
+      "responses": [
+        "Kapulaga memiliki aroma harum yang manis dan segar. Rasa kapulaga bersifat pedas dan manis, memberikan sentuhan eksotis pada masakan dan minuman."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanKapulaga",
+      "patterns": [
+        "Manfaat kapulaga",
+        "khasiat kapulaga",
+        "Apa manfaat kapulaga",
+        "Apa khasiat kapulaga?"
+      ],
+      "responses": [
+        "Pemeliharaan Pencernaan: Kapulaga dapat membantu meredakan masalah pencernaan seperti kembung dan gas. Efek Anti-inflamasi: Kapulaga mengandung senyawa anti-inflamasi yang dapat membantu mengurangi peradangan. Sumber Antioksidan: Kapulaga kaya akan antioksidan yang baik untuk kesehatan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanKapulaga",
+      "patterns": [
+        "Minuman kapulaga",
+        "Olahan kapulaga",
+        "kapulaga bisa dibuat apa?",
+        "Minuman dari kapulaga",
+        "Olahan dari kapulaga",
+        "Minuman obat kapulaga",
+        "Olahan obat kapulaga",
+        "kapulaga bisa dibuat apa?",
+        "Minuman obat dari kapulaga",
+        "Olahan obat dari kapulaga"
+      ],
+      "responses": [
+        "Kopi Kapulaga: Kapulaga sering ditambahkan ke dalam kopi untuk memberikan aroma dan rasa yang unik. Teh Kapulaga: Teh kapulaga dapat disajikan sebagai minuman hangat dengan manfaat kesehatan yang menyegarkan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatKapulaga",
+      "patterns": [
+        "kapulaga dapat digunakan untuk obat penyakit apa",
+        "kapulaga obat untuk apa?",
+        "obat dari kapulaga"
+      ],
+      "responses": [
+        "Pemeliharaan Pencernaan: Kapulaga dapat membantu meredakan masalah pencernaan seperti kembung dan gas. Pengurangan Stres: Aroma kapulaga dapat memiliki efek menenangkan dan membantu mengurangi stres. Peningkatan Sirkulasi Darah: Kapulaga dapat membantu meningkatkan sirkulasi darah."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukKapulaga",
+      "patterns": [
+        "Bentuk kapulaga",
+        "Ciri-ciri kapulaga",
+        "kapulaga bentuknya apa?",
+        "Ciri kapulaga"
+      ],
+      "responses": [
+        "Kapulaga memiliki biji kecil berwarna cokelat atau hitam. Biji kapulaga dikelompokkan dalam kapsul kecil yang terdapat dalam tangkai bunga. Biji inilah yang sering digunakan sebagai rempah dalam masakan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaKapulaga",
+      "patterns": [
+        "Kandungan kapulaga",
+        "Kandungan kimia kapulaga",
+        "Apa kandungan kimia kapulaga"
+      ],
+      "responses": [
+        "Kapulaga mengandung senyawa-senyawa seperti cineole, limonene, dan terpinene. Senyawa-senyawa ini memberikan aroma dan rasa khas pada kapulaga."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilKapulaga",
+      "patterns": [
+        "Daerah penghasil kapulaga",
+        "Penghasil kapulaga",
+        "Daerah kapulaga",
+        "Dimana daerah penghasil kapulaga",
+        "dimana kapulaga",
+        "dimana dapat menemukan kapulaga"
+      ],
+      "responses": [
+        "Kapulaga dapat tumbuh di daerah tropis, dan beberapa daerah penghasil kapulaga antara lain adalah Sumatera, Jawa, dan Sulawesi di Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "KayuManis",
+      "patterns": [
+        "kayu manis",
+        "Apa itu kayu manis?",
+        "Pengertian kayu manis",
+        "Deskripsi kayu manis",
+        "kayu manis itu apa"
+      ],
+      "responses": [
+        "Kayu manis adalah rempah yang berasal dari kulit bagian dalam pohon kayu manis (Cinnamomum verum atau Cinnamomum cassia). Kayu manis memiliki aroma harum dan rasa manis yang khas, sering digunakan dalam masakan, kue, dan minuman."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaKayuManis",
+      "patterns": [
+        "Aroma dan rasa kayu manis",
+        "Aroma kayu manis",
+        "Rasa kayu manis",
+        "Bagaimana aroma kayu manis?",
+        "Bagaimana rasa kayu manis?",
+        "Bagaimana aroma dan rasa kayu manis?"
+      ],
+      "responses": [
+        "Kayu manis memiliki aroma yang hangat, manis, dan sedikit pedas. Rasa kayu manis bersifat manis dengan sentuhan pedas ringan, memberikan karakteristik unik pada berbagai hidangan dan minuman."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanKayuManis",
+      "patterns": [
+        "Manfaat kayu manis",
+        "khasiat kayu manis",
+        "Apa manfaat kayu manis",
+        "Apa khasiat kayu manis?"
+      ],
+      "responses": [
+        "Pemeliharaan Gula Darah: Kayu manis dapat membantu mengatur kadar gula darah dan meningkatkan sensitivitas insulin. Antioksidan: Kayu manis mengandung antioksidan yang dapat melawan radikal bebas dalam tubuh. Efek Anti-inflamasi: Kayu manis dapat membantu mengurangi peradangan dalam tubuh."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanKayuManis",
+      "patterns": [
+        "Minuman kayu manis",
+        "Olahan kayu manis",
+        "kayu manis bisa dibuat apa?",
+        "Minuman dari kayu manis",
+        "Olahan dari kayu manis",
+        "Minuman obat kayu manis",
+        "Olahan obat kayu manis",
+        "kayu manis bisa dibuat apa?",
+        "Minuman obat dari kayu manis",
+        "Olahan obat dari kayu manis"
+      ],
+      "responses": [
+        "Susu Kayu Manis: Susu hangat dengan tambahan kayu manis dapat menjadi minuman yang nyaman sebelum tidur. Teh Kayu Manis: Teh dengan tambahan kayu manis dapat memberikan rasa hangat dan manis."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatKayuManis",
+      "patterns": [
+        "kayu manis dapat digunakan untuk obat penyakit apa",
+        "kayu manis obat untuk apa?",
+        "obat dari kayu manis"
+      ],
+      "responses": [
+        "Infeksi Saluran Pernafasan: Kayu manis memiliki sifat antibakteri dan antivirus, dapat membantu meredakan infeksi saluran pernafasan. Pemeliharaan Pencernaan: Kayu manis dapat membantu meredakan masalah pencernaan seperti kembung dan gas. Pemeliharaan Kulit: Kayu manis dapat digunakan untuk meredakan masalah kulit, termasuk jerawat dan iritasi."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukKayuManis",
+      "patterns": [
+        "Bentuk kayu manis",
+        "Ciri-ciri kayu manis",
+        "kayu manis bentuknya apa?",
+        "Ciri kayu manis"
+      ],
+      "responses": [
+        "Kayu manis tersedia dalam bentuk bubuk atau batang. Bubuk kayu manis umumnya digunakan dalam masakan dan kue, sementara batang kayu manis dapat digunakan untuk memberikan aroma pada minuman atau memasak."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaKayuManis",
+      "patterns": [
+        "Kandungan kayu manis",
+        "Kandungan kimia kayu manis",
+        "Apa kandungan kimia kayu manis"
+      ],
+      "responses": [
+        "Kandungan utama dalam kayu manis adalah senyawa-senyawa seperti cinnamaldehyde, eugenol, dan linalool. Senyawa-senyawa ini memberikan aroma dan rasa khas pada kayu manis."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilKayuManis",
+      "patterns": [
+        "Daerah penghasil kayu manis",
+        "Penghasil kayu manis",
+        "Daerah kayu manis",
+        "Dimana daerah penghasil kayu manis",
+        "dimana kayu manis",
+        "dimana dapat menemukan kayu manis"
+      ],
+      "responses": [
+        "Kayu manis tumbuh di berbagai daerah tropis, dan beberapa daerah penghasil kayu manis antara lain adalah Sumatera, Jawa, dan Kalimantan di Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Secang",
+      "patterns": [
+        "secang",
+        "Apa itu secang?",
+        "Pengertian secang",
+        "Deskripsi secang",
+        "secang itu apa"
+      ],
+      "responses": [
+        "Secang adalah rempah yang berasal dari kayu pohon secang (Caesalpinia sappan). Kayu secang sering digunakan sebagai pewarna alami dalam industri makanan dan minuman. Selain itu, secang juga memiliki nilai tradisional dalam pengobatan herbal."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaSecang",
+      "patterns": [
+        "Aroma dan rasa secang",
+        "Aroma secang",
+        "Rasa secang",
+        "Bagaimana aroma secang?",
+        "Bagaimana rasa secang?",
+        "Bagaimana aroma dan rasa secang?"
+      ],
+      "responses": [
+        "Secang memiliki aroma yang lembut dan kayu-kayuan. Secang umumnya tidak memiliki rasa yang dominan dan sering digunakan lebih sebagai pewarna alami daripada sebagai rempah penyedap rasa."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanSecang",
+      "patterns": [
+        "Manfaat secang",
+        "khasiat secang",
+        "Apa manfaat secang",
+        "Apa khasiat secang?"
+      ],
+      "responses": [
+        "Antioksidan: Secang mengandung senyawa antioksidan yang dapat membantu melawan radikal bebas dalam tubuh. Anti-inflamasi: Beberapa penelitian menunjukkan bahwa secang memiliki sifat anti-inflamasi yang dapat membantu mengurangi peradangan. Penggunaan Tradisional: Secang digunakan dalam pengobatan tradisional untuk meredakan demam, merangsang nafsu makan, dan sebagai tonik."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanSecang",
+      "patterns": [
+        "Minuman secang",
+        "Olahan secang",
+        "secang bisa dibuat apa?",
+        "Minuman dari secang",
+        "Olahan dari secang",
+        "Minuman obat secang",
+        "Olahan obat secang",
+        "secang bisa dibuat apa?",
+        "Minuman obat dari secang",
+        "Olahan obat dari secang"
+      ],
+      "responses": [
+        "Teh Secang: Teh yang terbuat dari serbuk kayu secang dapat menjadi minuman yang menenangkan dengan sedikit aroma kayu. Ekstrak Secang: Secang sering diolah menjadi ekstrak cair yang dapat ditambahkan ke dalam minuman atau makanan sebagai pewarna alami."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatSecang",
+      "patterns": [
+        "secang dapat digunakan untuk obat penyakit apa",
+        "secang obat untuk apa?",
+        "obat dari secang"
+      ],
+      "responses": [
+        "Demam: Secang digunakan dalam pengobatan tradisional untuk meredakan demam. Gangguan Pencernaan: Beberapa orang menggunakan secang untuk meredakan gangguan pencernaan seperti kembung dan diare. Antioksidan: Senyawa antioksidan dalam secang dapat memberikan manfaat kesehatan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukSecang",
+      "patterns": [
+        "Bentuk secang",
+        "Ciri-ciri secang",
+        "secang bentuknya apa?",
+        "Ciri secang"
+      ],
+      "responses": [
+        "Secang biasanya hadir dalam bentuk kayu atau serbuk. Kayu secang dapat digunakan dengan cara direbus atau direndam untuk menghasilkan warna merah alami. Serbuk secang sering digunakan sebagai pewarna alami dalam industri makanan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaSecang",
+      "patterns": [
+        "Kandungan secang",
+        "Kandungan kimia secang",
+        "Apa kandungan kimia secang"
+      ],
+      "responses": [
+        "Secang mengandung senyawa seperti brazilin dan brazilein yang memberikan warna merah pada kayu. Selain itu, terdapat senyawa-senyawa lain seperti flavonoid dan tanin dalam secang."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilSecang",
+      "patterns": [
+        "Daerah penghasil secang",
+        "Penghasil secang",
+        "Daerah secang",
+        "Dimana daerah penghasil secang",
+        "dimana secang",
+        "dimana dapat menemukan secang"
+      ],
+      "responses": [
+        "Secang dapat ditemukan di berbagai daerah tropis, termasuk Indonesia. Beberapa daerah penghasil secang antara lain adalah Jawa, Sumatera, dan Kalimantan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Kemiri",
+      "patterns": [
+        "kemiri",
+        "Apa itu kemiri?",
+        "Pengertian kemiri",
+        "Deskripsi kemiri",
+        "kemiri itu apa"
+      ],
+      "responses": [
+        "Kemiri adalah biji dari pohon kemiri (Aleurites moluccanus). Biji ini memiliki kulit keras dan biasanya dihancurkan atau diolah menjadi minyak. Minyak kemiri sering digunakan dalam masakan untuk memberikan rasa khas dan aroma yang lezat."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaKemiri",
+      "patterns": [
+        "Aroma dan rasa kemiri",
+        "Aroma kemiri",
+        "Rasa kemiri",
+        "Bagaimana aroma kemiri?",
+        "Bagaimana rasa kemiri?",
+        "Bagaimana aroma dan rasa kemiri?"
+      ],
+      "responses": [
+        "Kemiri memiliki aroma yang khas, hampir seperti kacang-kacangan yang dipanggang. Rasa kemiri cenderung lembut dan kaya, sehingga memberikan sentuhan lezat pada masakan dan hidangan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanKemiri",
+      "patterns": [
+        "Manfaat kemiri",
+        "khasiat kemiri",
+        "Apa manfaat kemiri",
+        "Apa khasiat kemiri?"
+      ],
+      "responses": [
+        "Sumber Asam Oleat: Kemiri mengandung asam oleat yang baik untuk kesehatan jantung. Nutrisi untuk Kulit: Minyak kemiri dapat digunakan sebagai pelembap alami untuk kulit. Kandungan Antioksidan: Kemiri mengandung antioksidan yang dapat membantu melawan radikal bebas dalam tubuh."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanKemiri",
+      "patterns": [
+        "Minuman kemiri",
+        "Olahan kemiri",
+        "kemiri bisa dibuat apa?",
+        "Minuman dari kemiri",
+        "Olahan dari kemiri",
+        "Minuman obat kemiri",
+        "Olahan obat kemiri",
+        "kemiri bisa dibuat apa?",
+        "Minuman obat dari kemiri",
+        "Olahan obat dari kemiri"
+      ],
+      "responses": [
+        "Sambal Kemiri: Sambal dengan tambahan kemiri memberikan rasa lezat dan kaya pada masakan. Minyak Kemiri: Minyak kemiri sering digunakan sebagai bahan dasar dalam masakan, terutama masakan Indonesia. Pencampur Bumbu: Kemiri sering dihaluskan dan digunakan sebagai pencampur bumbu untuk memberikan kekentalan pada saus dan masakan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatKemiri",
+      "patterns": [
+        "kemiri dapat digunakan untuk obat penyakit apa",
+        "kemiri obat untuk apa?",
+        "obat dari kemiri"
+      ],
+      "responses": [
+        "Pemeliharaan Kulit: Minyak kemiri dapat membantu melembapkan dan merawat kulit. Kesehatan Rambut: Beberapa orang menggunakan minyak kemiri untuk merawat kesehatan rambut. Antioksidan: Kemiri mengandung antioksidan yang dapat memberikan manfaat kesehatan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukKemiri",
+      "patterns": [
+        "Bentuk kemiri",
+        "Ciri-ciri kemiri",
+        "kemiri bentuknya apa?",
+        "Ciri kemiri"
+      ],
+      "responses": [
+        "Kemiri hadir dalam bentuk biji keras berdiameter kecil. Biji ini memiliki kulit keras yang perlu dihilangkan sebelum digunakan dalam masakan. Minyak kemiri, yang diekstrak dari biji, sering digunakan sebagai bahan masakan atau perawatan tubuh."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaKemiri",
+      "patterns": [
+        "Kandungan kemiri",
+        "Kandungan kimia kemiri",
+        "Apa kandungan kimia kemiri"
+      ],
+      "responses": [
+        "Kemiri mengandung berbagai nutrisi seperti asam oleat, vitamin E, dan antioksidan. Minyak kemiri juga mengandung senyawa-senyawa yang memberikan aroma dan rasa khas pada masakan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilKemiri",
+      "patterns": [
+        "Daerah penghasil kemiri",
+        "Penghasil kemiri",
+        "Daerah kemiri",
+        "Dimana daerah penghasil kemiri",
+        "dimana kemiri",
+        "dimana dapat menemukan kemiri"
+      ],
+      "responses": [
+        "Kemiri dapat ditemukan di berbagai daerah tropis, dan beberapa daerah penghasil kemiri antara lain adalah Jawa, Bali, dan Sulawesi di Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Kencur",
+      "patterns": [
+        "kencur",
+        "Apa itu kencur?",
+        "Pengertian kencur",
+        "Deskripsi kencur",
+        "kencur itu apa"
+      ],
+      "responses": [
+        "Kencur adalah rimpang tanaman yang digunakan sebagai rempah dan bahan obat-obatan. Rimpang ini memiliki aroma yang khas dan sering digunakan dalam masakan tradisional Indonesia. Selain itu, kencur juga memiliki nilai dalam pengobatan tradisional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaKencur",
+      "patterns": [
+        "Aroma dan rasa kencur",
+        "Aroma kencur",
+        "Rasa kencur",
+        "Bagaimana aroma kencur?",
+        "Bagaimana rasa kencur?",
+        "Bagaimana aroma dan rasa kencur?"
+      ],
+      "responses": [
+        "Kencur memiliki aroma yang segar, harum, dan sedikit pedas. Rasa kencur cenderung pedas dan memberikan sensasi hangat pada lidah. Aroma dan rasa kencur sering digunakan untuk memberikan karakteristik khas pada masakan Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanKencur",
+      "patterns": [
+        "Manfaat kencur",
+        "khasiat kencur",
+        "Apa manfaat kencur",
+        "Apa khasiat kencur?"
+      ],
+      "responses": [
+        "Pencernaan: Kencur dapat membantu meredakan masalah pencernaan seperti kembung dan perut kembung. Anti-inflamasi: Kencur memiliki sifat anti-inflamasi yang dapat membantu mengurangi peradangan. Pemeliharaan Kesehatan Kulit: Kencur dapat digunakan dalam perawatan kulit untuk memberikan kesegaran dan membersihkan kulit."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanKencur",
+      "patterns": [
+        "Minuman kencur",
+        "Olahan kencur",
+        "kencur bisa dibuat apa?",
+        "Minuman dari kencur",
+        "Olahan dari kencur",
+        "Minuman obat kencur",
+        "Olahan obat kencur",
+        "kencur bisa dibuat apa?",
+        "Minuman obat dari kencur",
+        "Olahan obat dari kencur"
+      ],
+      "responses": [
+        "Wedang Kencur: Minuman tradisional Indonesia yang terbuat dari kencur, jahe, gula, dan air. Sirup Kencur: Sirup kencur sering digunakan sebagai minuman penyegar dan dapat memberikan manfaat kesehatan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatKencur",
+      "patterns": [
+        "kencur dapat digunakan untuk obat penyakit apa",
+        "kencur obat untuk apa?",
+        "obat dari kencur"
+      ],
+      "responses": [
+        "Pengobatan Batuk: Kencur sering digunakan dalam ramuan tradisional untuk meredakan batuk. Pemeliharaan Pencernaan: Kencur dapat membantu meredakan gangguan pencernaan. Antioksidan: Kencur mengandung antioksidan yang dapat memberikan manfaat kesehatan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukKencur",
+      "patterns": [
+        "Bentuk kencur",
+        "Ciri-ciri kencur",
+        "kencur bentuknya apa?",
+        "Ciri kencur"
+      ],
+      "responses": [
+        "Kencur hadir dalam bentuk rimpang yang kecil dan berbentuk jari-jari kecil. Rimpang ini dapat diiris tipis atau dihaluskan untuk digunakan dalam masakan atau ramuan obat tradisional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaKencur",
+      "patterns": [
+        "Kandungan kencur",
+        "Kandungan kimia kencur",
+        "Apa kandungan kimia kencur"
+      ],
+      "responses": [
+        "Kencur mengandung berbagai senyawa seperti asam askorbat, minyak atsiri, dan zat antioksidan. Minyak atsiri kencur, yang mengandung camphor dan cineol, memberikan aroma dan rasa khas pada kencur."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilKencur",
+      "patterns": [
+        "Daerah penghasil kencur",
+        "Penghasil kencur",
+        "Daerah kencur",
+        "Dimana daerah penghasil kencur",
+        "dimana kencur",
+        "dimana dapat menemukan kencur"
+      ],
+      "responses": [
+        "Kencur dapat ditemukan di berbagai daerah tropis, dan beberapa daerah penghasil kencur antara lain adalah Jawa, Bali, dan Kalimantan di Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Kunyit",
+      "patterns": [
+        "kunyit",
+        "Apa itu kunyit?",
+        "Pengertian kunyit",
+        "Deskripsi kunyit",
+        "kunyit itu apa"
+      ],
+      "responses": [
+        "Kunyit adalah rimpang tanaman yang digunakan sebagai rempah dan bahan pewarna alami. Rimpang ini memiliki warna kuning cerah dan sering digunakan dalam masakan tradisional, terutama di Asia. Selain sebagai rempah, kunyit juga memiliki nilai dalam pengobatan tradisional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaKunyit",
+      "patterns": [
+        "Aroma dan rasa kunyit",
+        "Aroma kunyit",
+        "Rasa kunyit",
+        "Bagaimana aroma kunyit?",
+        "Bagaimana rasa kunyit?",
+        "Bagaimana aroma dan rasa kunyit?"
+      ],
+      "responses": [
+        "Kunyit memiliki aroma yang hangat, bumi, dan sedikit pahit. Rasa kunyit cenderung pahit dengan sentuhan ringan kepedasan. Aroma dan rasa kunyit memberikan karakteristik khas pada masakan dan minuman."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanKunyit",
+      "patterns": [
+        "Manfaat kunyit",
+        "khasiat kunyit",
+        "Apa manfaat kunyit",
+        "Apa khasiat kunyit?"
+      ],
+      "responses": [
+        "Anti-inflamasi: Kunyit mengandung kurkumin, senyawa anti-inflamasi yang dapat membantu mengurangi peradangan dalam tubuh. Antioksidan: Kunyit memiliki sifat antioksidan yang melindungi sel-sel tubuh dari kerusakan radikal bebas. Pemeliharaan Kesehatan Sendi: Kunyit dapat membantu meredakan masalah sendi dan otot."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanKunyit",
+      "patterns": [
+        "Minuman kunyit",
+        "Olahan kunyit",
+        "kunyit bisa dibuat apa?",
+        "Minuman dari kunyit",
+        "Olahan dari kunyit",
+        "Minuman obat kunyit",
+        "Olahan obat kunyit",
+        "kunyit bisa dibuat apa?",
+        "Minuman obat dari kunyit",
+        "Olahan obat dari kunyit"
+      ],
+      "responses": [
+        "Jus Kunyit: Jus segar kunyit dapat diolah dengan tambahan bahan lain untuk membuat minuman yang sehat. Susu Kunyit: Minuman tradisional yang terbuat dari kunyit, susu, dan bahan-bahan lain yang dapat memberikan manfaat kesehatan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatKunyit",
+      "patterns": [
+        "kunyit dapat digunakan untuk obat penyakit apa",
+        "kunyit obat untuk apa?",
+        "obat dari kunyit"
+      ],
+      "responses": [
+        "Antioksidan: Kunyit dapat membantu melawan radikal bebas dalam tubuh berkat kandungan kurkuminnya. Pemeliharaan Pencernaan: Kunyit dapat membantu meredakan gangguan pencernaan seperti perut kembung dan masalah pencernaan lainnya. Kesehatan Hati: Beberapa penelitian menunjukkan bahwa kunyit dapat mendukung kesehatan hati."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukKunyit",
+      "patterns": [
+        "Bentuk kunyit",
+        "Ciri-ciri kunyit",
+        "kunyit bentuknya apa?",
+        "Ciri kunyit"
+      ],
+      "responses": [
+        "Kunyit hadir dalam bentuk rimpang berwarna kuning cerah. Rimpang ini dapat diiris, dihaluskan, atau dijadikan bubuk untuk digunakan dalam masakan atau ramuan obat tradisional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaKunyit",
+      "patterns": [
+        "Kandungan kunyit",
+        "Kandungan kimia kunyit",
+        "Apa kandungan kimia kunyit"
+      ],
+      "responses": [
+        "Kunyit mengandung kurkumin, yang merupakan senyawa utama yang memberikan warna kuning cerah pada rimpang. Selain itu, kunyit mengandung berbagai senyawa lain seperti turmeron dan zingiberen."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilKunyit",
+      "patterns": [
+        "Daerah penghasil kunyit",
+        "Penghasil kunyit",
+        "Daerah kunyit",
+        "Dimana daerah penghasil kunyit",
+        "dimana kunyit",
+        "dimana dapat menemukan kunyit"
+      ],
+      "responses": [
+        "Kunyit dapat ditemukan di berbagai daerah tropis, dan beberapa daerah penghasil kunyit antara lain adalah Jawa, Sumatera, dan Bali di Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Lada",
+      "patterns": [
+        "lada",
+        "Apa itu lada?",
+        "Pengertian lada",
+        "Deskripsi lada",
+        "lada itu apa"
+      ],
+      "responses": [
+        "Lada adalah buah beri yang dihasilkan oleh tanaman Piper nigrum. Buah ini diolah menjadi rempah berbentuk bulat dan dikenal dengan rasa pedasnya. Lada hitam dan lada putih berasal dari buah yang sama, tetapi diproses secara berbeda."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaLada",
+      "patterns": [
+        "Aroma dan rasa lada",
+        "Aroma lada",
+        "Rasa lada",
+        "Bagaimana aroma lada?",
+        "Bagaimana rasa lada?",
+        "Bagaimana aroma dan rasa lada?"
+      ],
+      "responses": [
+        "Lada hitam memiliki aroma yang tajam, hangat, dan sedikit pahit. Rasa lada hitam cenderung lebih kompleks, dengan sentuhan pedas dan bumi. Sementara itu, lada putih memiliki aroma yang lebih ringan dan rasa pedas yang lebih tajam."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanLada",
+      "patterns": [
+        "Manfaat lada",
+        "khasiat lada",
+        "Apa manfaat lada",
+        "Apa khasiat lada?"
+      ],
+      "responses": [
+        "Peningkatan Metabolisme: Lada hitam diketahui dapat meningkatkan metabolisme dan membantu dalam penyerapan nutrisi. Sifat Antioksidan: Lada hitam dan lada putih mengandung senyawa antioksidan yang dapat melawan radikal bebas. Pemeliharaan Pencernaan: Rasa pedas lada dapat merangsang produksi cairan pencernaan dan membantu dalam proses pencernaan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanLada",
+      "patterns": [
+        "Minuman lada",
+        "Olahan lada",
+        "lada bisa dibuat apa?",
+        "Minuman dari lada",
+        "Olahan dari lada",
+        "Minuman obat lada",
+        "Olahan obat lada",
+        "lada bisa dibuat apa?",
+        "Minuman obat dari lada",
+        "Olahan obat dari lada"
+      ],
+      "responses": [
+        "Saus Lada: Saus lada, terutama yang dibuat dari lada hitam, sering digunakan dalam masakan untuk memberikan rasa pedas dan hangat. Jamu Lada: Beberapa tradisi pengobatan herbal menggunakan lada dalam ramuan untuk mengatasi masalah pencernaan dan meningkatkan kesehatan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatLada",
+      "patterns": [
+        "lada dapat digunakan untuk obat penyakit apa",
+        "lada obat untuk apa?",
+        "obat dari lada"
+      ],
+      "responses": [
+        "Penghilang Rasa Sakit: Lada hitam dapat digunakan untuk meredakan rasa sakit dan peradangan. Pembersih Saluran Pencernaan: Rasa pedas lada dapat membantu membersihkan saluran pencernaan dan meningkatkan nafsu makan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukLada",
+      "patterns": [
+        "Bentuk lada",
+        "Ciri-ciri lada",
+        "lada bentuknya apa?",
+        "Ciri lada"
+      ],
+      "responses": [
+        "Lada hadir dalam bentuk bulat kecil, biasanya dijual dalam bentuk biji kering atau bubuk. Lada hitam adalah biji yang dikeringkan, sementara lada putih adalah biji yang telah dikupas kulitnya."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaLada",
+      "patterns": [
+        "Kandungan lada",
+        "Kandungan kimia lada",
+        "Apa kandungan kimia lada"
+      ],
+      "responses": [
+        "Kandungan utama dalam lada adalah piperin, senyawa yang memberikan rasa pedas. Selain itu, lada juga mengandung berbagai senyawa seperti karvakrol, limonen, dan kadinen."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilLada",
+      "patterns": [
+        "Daerah penghasil lada",
+        "Penghasil lada",
+        "Daerah lada",
+        "Dimana daerah penghasil lada",
+        "dimana lada",
+        "dimana dapat menemukan lada"
+      ],
+      "responses": [
+        "Lada dapat tumbuh di berbagai daerah tropis, dan beberapa daerah penghasil lada antara lain adalah Sumatera, Jawa, dan Kalimantan di Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Lengkuas",
+      "patterns": [
+        "lengkuas",
+        "Apa itu lengkuas?",
+        "Pengertian lengkuas",
+        "Deskripsi lengkuas",
+        "lengkuas itu apa"
+      ],
+      "responses": [
+        "Lengkuas adalah tanaman rimpang yang sering digunakan sebagai rempah dalam masakan Asia, terutama Indonesia. Rimpang ini memiliki aroma yang khas dan memberikan rasa segar dan harum pada masakan. Lengkuas juga memiliki nilai dalam pengobatan tradisional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaLengkuas",
+      "patterns": [
+        "Aroma dan rasa lengkuas",
+        "Aroma lengkuas",
+        "Rasa lengkuas",
+        "Bagaimana aroma lengkuas?",
+        "Bagaimana rasa lengkuas?",
+        "Bagaimana aroma dan rasa lengkuas?"
+      ],
+      "responses": [
+        "Lengkuas memiliki aroma yang segar, harum, dan sedikit pedas. Rasa lengkuas cenderung memberikan sensasi pedas dan hangat. Aroma dan rasa lengkuas sering digunakan untuk memberikan karakteristik khas pada masakan Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanLengkuas",
+      "patterns": [
+        "Manfaat lengkuas",
+        "khasiat lengkuas",
+        "Apa manfaat lengkuas",
+        "Apa khasiat lengkuas?"
+      ],
+      "responses": [
+        "Pemeliharaan Kesehatan Pencernaan: Lengkuas dapat membantu meredakan masalah pencernaan seperti kembung dan perut kembung. Anti-inflamasi: Lengkuas memiliki sifat anti-inflamasi yang dapat membantu mengurangi peradangan. Peningkatan Sirkulasi Darah: Aroma lengkuas dapat membantu meningkatkan sirkulasi darah."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanLengkuas",
+      "patterns": [
+        "Minuman lengkuas",
+        "Olahan lengkuas",
+        "lengkuas bisa dibuat apa?",
+        "Minuman dari lengkuas",
+        "Olahan dari lengkuas",
+        "Minuman obat lengkuas",
+        "Olahan obat lengkuas",
+        "lengkuas bisa dibuat apa?",
+        "Minuman obat dari lengkuas",
+        "Olahan obat dari lengkuas"
+      ],
+      "responses": [
+        "Wedang Lengkuas: Minuman tradisional Indonesia yang terbuat dari lengkuas, jahe, gula, dan air. Sirup Lengkuas: Sirup lengkuas sering digunakan sebagai minuman penyegar dan dapat memberikan manfaat kesehatan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatLengkuas",
+      "patterns": [
+        "lengkuas dapat digunakan untuk obat penyakit apa",
+        "lengkuas obat untuk apa?",
+        "obat dari lengkuas"
+      ],
+      "responses": [
+        "Meredakan Masuk Angin: Lengkuas sering digunakan dalam ramuan tradisional untuk meredakan masuk angin. Pemeliharaan Kesehatan Jantung: Beberapa penelitian menunjukkan bahwa lengkuas dapat mendukung kesehatan jantung. Pemeliharaan Kesehatan Kulit: Lengkuas dapat digunakan dalam perawatan kulit untuk memberikan kesegaran dan membersihkan kulit."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukLengkuas",
+      "patterns": [
+        "Bentuk lengkuas",
+        "Ciri-ciri lengkuas",
+        "lengkuas bentuknya apa?",
+        "Ciri lengkuas"
+      ],
+      "responses": [
+        "Lengkuas hadir dalam bentuk rimpang yang panjang dan berwarna cokelat kemerahan. Rimpang ini memiliki kulit yang kasar dan daging yang keras. Lengkuas dapat diiris tipis atau dihaluskan untuk digunakan dalam masakan atau ramuan obat tradisional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaLengkuas",
+      "patterns": [
+        "Kandungan lengkuas",
+        "Kandungan kimia lengkuas",
+        "Apa kandungan kimia lengkuas"
+      ],
+      "responses": [
+        "Kandungan kimia dalam lengkuas meliputi minyak atsiri, zat antioksidan, dan senyawa-senyawa seperti sineol dan borneol. Minyak atsiri lengkuas memberikan aroma khas pada rempah ini."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilLengkuas",
+      "patterns": [
+        "Daerah penghasil lengkuas",
+        "Penghasil lengkuas",
+        "Daerah lengkuas",
+        "Dimana daerah penghasil lengkuas",
+        "dimana lengkuas",
+        "dimana dapat menemukan lengkuas"
+      ],
+      "responses": [
+        "Lengkuas dapat tumbuh di berbagai daerah tropis, dan beberapa daerah penghasil lengkuas antara lain adalah Jawa, Sumatera, dan Kalimantan di Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pala",
+      "patterns": [
+        "pala",
+        "Apa itu pala?",
+        "Pengertian pala",
+        "Deskripsi pala",
+        "pala itu apa"
+      ],
+      "responses": [
+        "Pala adalah rempah yang berasal dari biji buah pohon pala (Myristica fragrans). Rempah ini memiliki aroma yang kaya, hangat, dan manis. Pala sering digunakan dalam masakan untuk memberikan rasa dan aroma yang khas."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaPala",
+      "patterns": [
+        "Aroma dan rasa pala",
+        "Aroma pala",
+        "Rasa pala",
+        "Bagaimana aroma pala?",
+        "Bagaimana rasa pala?",
+        "Bagaimana aroma dan rasa pala?"
+      ],
+      "responses": [
+        "Pala memiliki aroma yang kaya, hangat, manis, dan sedikit pedas. Rasa pala cenderung manis dengan sentuhan hangat dan pedas. Aroma dan rasa pala memberikan karakteristik khas pada masakan dan kue-kue tradisional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanPala",
+      "patterns": [
+        "Manfaat pala",
+        "khasiat pala",
+        "Apa manfaat pala",
+        "Apa khasiat pala?"
+      ],
+      "responses": [
+        "Pemeliharaan Kesehatan Pencernaan: Pala dapat membantu meredakan masalah pencernaan seperti perut kembung dan gangguan pencernaan. Sifat Antioksidan: Pala mengandung senyawa antioksidan yang melawan radikal bebas dalam tubuh. Efek Relaksasi: Aroma pala dapat memberikan efek relaksasi dan membantu meredakan stres."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanPala",
+      "patterns": [
+        "Minuman pala",
+        "Olahan pala",
+        "pala bisa dibuat apa?",
+        "Minuman dari pala",
+        "Olahan dari pala",
+        "Minuman obat pala",
+        "Olahan obat pala",
+        "pala bisa dibuat apa?",
+        "Minuman obat dari pala",
+        "Olahan obat dari pala"
+      ],
+      "responses": [
+        "Sari Pala: Sari pala dapat digunakan sebagai bumbu dalam minuman atau sebagai tambahan pada kue-kue. Teh Pala: Teh pala dapat memberikan sensasi hangat dan kenyamanan, terutama saat cuaca dingin."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatPala",
+      "patterns": [
+        "pala dapat digunakan untuk obat penyakit apa",
+        "pala obat untuk apa?",
+        "obat dari pala"
+      ],
+      "responses": [
+        "Pengobatan Pencernaan: Pala dapat digunakan dalam pengobatan tradisional untuk meredakan gangguan pencernaan. Pengurangan Nyeri: Beberapa orang mengonsumsi pala sebagai cara alami untuk meredakan nyeri, terutama pada gigi dan gusi."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukPala",
+      "patterns": [
+        "Bentuk pala",
+        "Ciri-ciri pala",
+        "pala bentuknya apa?",
+        "Ciri pala"
+      ],
+      "responses": [
+        "Pala hadir dalam bentuk biji kecil yang biasanya dikeringkan sebelum digunakan. Biji pala memiliki kulit yang keras dan dilapisi oleh lapisan merah yang disebut \"kulit pala.\" Untuk digunakan, biji pala dapat digerus atau diparut menjadi bubuk."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaPala",
+      "patterns": [
+        "Kandungan pala",
+        "Kandungan kimia pala",
+        "Apa kandungan kimia pala"
+      ],
+      "responses": [
+        "Kandungan kimia utama dalam pala termasuk miristisin, eugenol, dan elemicin. Senyawa-senyawa ini memberikan aroma dan rasa khas pada rempah pala."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilPala",
+      "patterns": [
+        "Daerah penghasil pala",
+        "Penghasil pala",
+        "Daerah pala",
+        "Dimana daerah penghasil pala",
+        "dimana pala",
+        "dimana dapat menemukan pala"
+      ],
+      "responses": [
+        "Pala dapat tumbuh di berbagai daerah tropis, dan beberapa daerah penghasil pala antara lain adalah Maluku, Papua, dan Sulawesi di Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Serai",
+      "patterns": [
+        "serai",
+        "Apa itu serai?",
+        "Pengertian serai",
+        "Deskripsi serai",
+        "serai itu apa"
+      ],
+      "responses": [
+        "Serai, juga dikenal sebagai sereh, adalah tanaman yang sering digunakan sebagai rempah dalam masakan, terutama di Asia Tenggara. Daun serai memiliki aroma yang segar dan citrus, sementara batangnya sering digunakan dalam pembuatan kaldu atau infus."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaSerai",
+      "patterns": [
+        "Aroma dan rasa serai",
+        "Aroma serai",
+        "Rasa serai",
+        "Bagaimana aroma serai?",
+        "Bagaimana rasa serai?",
+        "Bagaimana aroma dan rasa serai?"
+      ],
+      "responses": [
+        "Serai memiliki aroma segar dan citrus yang khas. Rasa serai cenderung citrus, dengan sentuhan ringan ke sitrus dan sedikit pedas. Aroma dan rasa serai memberikan karakteristik khas pada masakan Asia Tenggara."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanSerai",
+      "patterns": [
+        "Manfaat serai",
+        "khasiat serai",
+        "Apa manfaat serai",
+        "Apa khasiat serai?"
+      ],
+      "responses": [
+        "Pemeliharaan Kesehatan Pencernaan: Serai dapat membantu meredakan masalah pencernaan seperti perut kembung dan mual. Sifat Antioksidan: Serai mengandung senyawa antioksidan yang melawan radikal bebas dalam tubuh. Peningkatan Kekebalan Tubuh: Konsumsi serai dapat membantu meningkatkan sistem kekebalan tubuh."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanSerai",
+      "patterns": [
+        "Minuman serai",
+        "Olahan serai",
+        "serai bisa dibuat apa?",
+        "Minuman dari serai",
+        "Olahan dari serai",
+        "Minuman obat serai",
+        "Olahan obat serai",
+        "serai bisa dibuat apa?",
+        "Minuman obat dari serai",
+        "Olahan obat dari serai"
+      ],
+      "responses": [
+        "Teh Serai: Teh serai adalah minuman populer yang dapat memberikan rasa segar dan manfaat kesehatan. Infus Serai: Serai sering digunakan sebagai bahan dalam infus untuk meredakan stres dan meningkatkan kesehatan secara keseluruhan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatSerai",
+      "patterns": [
+        "serai dapat digunakan untuk obat penyakit apa",
+        "serai obat untuk apa?",
+        "obat dari serai"
+      ],
+      "responses": [
+        "Pengurangan Kolesterol: Beberapa penelitian menunjukkan bahwa serai dapat membantu mengurangi kadar kolesterol. Pemeliharaan Kesehatan Jantung: Senyawa dalam serai dapat mendukung kesehatan jantung. Penghilang Rasa Sakit: Serai memiliki sifat analgesik dan dapat digunakan untuk meredakan rasa sakit."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukSerai",
+      "patterns": [
+        "Bentuk serai",
+        "Ciri-ciri serai",
+        "serai bentuknya apa?",
+        "Ciri serai"
+      ],
+      "responses": [
+        "Serai memiliki batang yang panjang dan ramping dengan daun-daun yang tumbuh langsung dari batangnya. Bagian yang paling sering digunakan dalam masakan adalah bagian bawah batang yang lunak. Serai juga dapat dihancurkan atau diiris tipis untuk digunakan dalam berbagai hidangan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaSerai",
+      "patterns": [
+        "Kandungan serai",
+        "Kandungan kimia serai",
+        "Apa kandungan kimia serai"
+      ],
+      "responses": [
+        "Kandungan kimia dalam serai meliputi citronella, citronellal, dan geraniol, yang memberikan aroma dan rasa khas. Senyawa-senyawa ini juga memberikan sifat antijamur dan antibakteri pada serai."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilSerai",
+      "patterns": [
+        "Daerah penghasil serai",
+        "Penghasil serai",
+        "Daerah serai",
+        "Dimana daerah penghasil serai",
+        "dimana serai",
+        "dimana dapat menemukan serai"
+      ],
+      "responses": [
+        "Serai dapat tumbuh di berbagai daerah tropis, dan beberapa daerah penghasil serai antara lain adalah Jawa, Sumatera, dan Bali di Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Temulawak",
+      "patterns": [
+        "temulawak",
+        "Apa itu temulawak?",
+        "Pengertian temulawak",
+        "Deskripsi temulawak",
+        "temulawak itu apa"
+      ],
+      "responses": [
+        "Temulawak adalah tanaman rimpang yang sering digunakan sebagai rempah dan obat tradisional di Asia, terutama Indonesia. Rimpang temulawak memiliki warna kuning cerah dan memiliki rasa yang pahit. Temulawak sering digunakan dalam masakan dan minuman kesehatan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaTemulawak",
+      "patterns": [
+        "Aroma dan rasa temulawak",
+        "Aroma temulawak",
+        "Rasa temulawak",
+        "Bagaimana aroma temulawak?",
+        "Bagaimana rasa temulawak?",
+        "Bagaimana aroma dan rasa temulawak?"
+      ],
+      "responses": [
+        "Temulawak memiliki aroma yang khas, sedikit pahit, dan hangat. Rasa temulawak cenderung pahit dengan sentuhan hangat. Aroma dan rasa temulawak memberikan karakteristik khas pada masakan Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanTemulawak",
+      "patterns": [
+        "Manfaat temulawak",
+        "khasiat temulawak",
+        "Apa manfaat temulawak",
+        "Apa khasiat temulawak?"
+      ],
+      "responses": [
+        "Pemeliharaan Kesehatan Pencernaan: Temulawak dapat membantu meredakan gangguan pencernaan seperti perut kembung dan masuk angin. Antioksidan: Temulawak mengandung senyawa antioksidan yang melawan radikal bebas dalam tubuh. Pemeliharaan Kesehatan Hati: Beberapa penelitian menunjukkan bahwa temulawak dapat mendukung kesehatan hati."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanTemulawak",
+      "patterns": [
+        "Minuman temulawak",
+        "Olahan temulawak",
+        "temulawak bisa dibuat apa?",
+        "Minuman dari temulawak",
+        "Olahan dari temulawak",
+        "Minuman obat temulawak",
+        "Olahan obat temulawak",
+        "temulawak bisa dibuat apa?",
+        "Minuman obat dari temulawak",
+        "Olahan obat dari temulawak"
+      ],
+      "responses": [
+        "Wedang Temulawak: Minuman tradisional Indonesia yang terbuat dari temulawak, jahe, gula, dan air. Jamu Temulawak: Jamu temulawak sering dikonsumsi untuk meningkatkan stamina dan kesehatan secara keseluruhan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatTemulawak",
+      "patterns": [
+        "temulawak dapat digunakan untuk obat penyakit apa",
+        "temulawak obat untuk apa?",
+        "obat dari temulawak"
+      ],
+      "responses": [
+        "Antiinflamasi: Temulawak memiliki sifat antiinflamasi dan dapat membantu meredakan peradangan. Penyembuhan Luka: Beberapa orang menggunakan temulawak untuk membantu proses penyembuhan luka. Pemeliharaan Kesehatan Jantung: Temulawak dapat mendukung kesehatan jantung melalui sifat antioksidannya."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukTemulawak",
+      "patterns": [
+        "Bentuk temulawak",
+        "Ciri-ciri temulawak",
+        "temulawak bentuknya apa?",
+        "Ciri temulawak"
+      ],
+      "responses": [
+        "Temulawak hadir dalam bentuk rimpang yang panjang, berwarna kuning cerah, dan memiliki daging yang keras. Rimpang temulawak dapat diiris tipis atau dihaluskan untuk digunakan dalam masakan atau ramuan tradisional."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaTemulawak",
+      "patterns": [
+        "Kandungan temulawak",
+        "Kandungan kimia temulawak",
+        "Apa kandungan kimia temulawak"
+      ],
+      "responses": [
+        "Kandungan kimia utama dalam temulawak meliputi kurkumin, turmeron, dan zat aktif lainnya. Kurkumin memberikan warna kuning pada temulawak dan memiliki sifat antiinflamasi yang signifikan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilTemulawak",
+      "patterns": [
+        "Daerah penghasil temulawak",
+        "Penghasil temulawak",
+        "Daerah temulawak",
+        "Dimana daerah penghasil temulawak",
+        "dimana temulawak",
+        "dimana dapat menemukan temulawak"
+      ],
+      "responses": [
+        "Temulawak dapat tumbuh di berbagai daerah tropis, dan beberapa daerah penghasil temulawak antara lain adalah Jawa, Bali, dan Sumatera di Indonesia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Vanili",
+      "patterns": [
+        "vanili",
+        "Apa itu vanili?",
+        "Pengertian vanili",
+        "Deskripsi vanili",
+        "vanili itu apa"
+      ],
+      "responses": [
+        "Vanili adalah rempah yang berasal dari biji buah vanili (Vanilla planifolia). Vanili dikenal dengan aroma yang manis dan kaya, dan sering digunakan untuk memberikan rasa pada makanan dan minuman. Proses pengeringan biji vanili memberikan rempah ini aroma khasnya."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaVanili",
+      "patterns": [
+        "Aroma dan rasa vanili",
+        "Aroma vanili",
+        "Rasa vanili",
+        "Bagaimana aroma vanili?",
+        "Bagaimana rasa vanili?",
+        "Bagaimana aroma dan rasa vanili?"
+      ],
+      "responses": [
+        "Vanili memiliki aroma yang manis, hangat, dan kaya. Rasa vanili cenderung manis dengan sentuhan hangat dan lembut. Aroma dan rasa vanili sering digunakan dalam pembuatan kue, es krim, dan minuman."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanVanili",
+      "patterns": [
+        "Manfaat vanili",
+        "khasiat vanili",
+        "Apa manfaat vanili",
+        "Apa khasiat vanili?"
+      ],
+      "responses": [
+        "Efek Relaksasi: Aroma vanili dapat memberikan efek relaksasi dan mengurangi stres. Antioksidan: Vanili mengandung senyawa antioksidan yang melawan radikal bebas dalam tubuh. Peningkatan Mood: Aroma vanili dapat meningkatkan mood dan memberikan perasaan kenyamanan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanVanili",
+      "patterns": [
+        "Minuman vanili",
+        "Olahan vanili",
+        "vanili bisa dibuat apa?",
+        "Minuman dari vanili",
+        "Olahan dari vanili",
+        "Minuman obat vanili",
+        "Olahan obat vanili",
+        "vanili bisa dibuat apa?",
+        "Minuman obat dari vanili",
+        "Olahan obat dari vanili"
+      ],
+      "responses": [
+        "Es Krim Vanili: Es krim vanili adalah salah satu olahan paling populer yang menggunakan rempah vanili. Sirup Vanili: Sirup vanili dapat ditambahkan ke minuman atau makanan untuk memberikan rasa vanili yang lezat."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatVanili",
+      "patterns": [
+        "vanili dapat digunakan untuk obat penyakit apa",
+        "vanili obat untuk apa?",
+        "obat dari vanili"
+      ],
+      "responses": [
+        "Pengurangan Stres: Aroma vanili dapat membantu mengurangi tingkat stres dan memberikan efek relaksasi. Pengobatan Insomnia: Beberapa orang menggunakan vanili untuk membantu mengatasi masalah tidur atau insomnia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukVanili",
+      "patterns": [
+        "Bentuk vanili",
+        "Ciri-ciri vanili",
+        "vanili bentuknya apa?",
+        "Ciri vanili"
+      ],
+      "responses": [
+        "Vanili hadir dalam bentuk biji panjang dan tipis yang diperoleh dari buah vanili. Biji vanili memiliki kulit yang tipis dan daging yang lembut. Proses pengeringan biji vanili memberikan rempah ini aroma yang khas."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaVanili",
+      "patterns": [
+        "Kandungan vanili",
+        "Kandungan kimia vanili",
+        "Apa kandungan kimia vanili"
+      ],
+      "responses": [
+        "Kandungan kimia utama dalam vanili termasuk vanilin, kumarin, dan senyawa lainnya. Vanilin memberikan aroma dan rasa utama pada vanili, sementara kumarin memberikan sentuhan manis."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilVanili",
+      "patterns": [
+        "Daerah penghasil vanili",
+        "Penghasil vanili",
+        "Daerah vanili",
+        "Dimana daerah penghasil vanili",
+        "dimana vanili",
+        "dimana dapat menemukan vanili"
+      ],
+      "responses": [
+        "Vanili tumbuh terutama di daerah tropis, dan beberapa daerah penghasil vanili antara lain adalah Madagaskar, Komoro, dan Pulau Reunion."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Wijen",
+      "patterns": [
+        "wijen",
+        "Apa itu wijen?",
+        "Pengertian wijen",
+        "Deskripsi wijen",
+        "wijen itu apa"
+      ],
+      "responses": [
+        "Wijen adalah biji-bijian yang berasal dari tanaman Sesamum indicum. Biji wijen memiliki rasa gurih dan kaya lemak. Wijen digunakan dalam banyak masakan untuk memberikan rasa, tekstur, dan nutrisi tambahan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "aromaWijen",
+      "patterns": [
+        "Aroma dan rasa wijen",
+        "Aroma wijen",
+        "Rasa wijen",
+        "Bagaimana aroma wijen?",
+        "Bagaimana rasa wijen?",
+        "Bagaimana aroma dan rasa wijen?"
+      ],
+      "responses": [
+        "Wijen memiliki aroma ringan dan rasa gurih. Rasa wijen cenderung kaya dan sedikit manis. Aroma dan rasa wijen dapat meningkatkan cita rasa berbagai hidangan, terutama di masakan Asia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "manfaatKesehatanWijen",
+      "patterns": [
+        "Manfaat wijen",
+        "khasiat wijen",
+        "Apa manfaat wijen",
+        "Apa khasiat wijen?"
+      ],
+      "responses": [
+        "Sumber Asam Lemak Sehat: Wijen mengandung asam lemak sehat, seperti asam oleat, yang bermanfaat untuk kesehatan jantung. Kaya Antioksidan: Wijen mengandung senyawa antioksidan, seperti sesamin dan sesamolin, yang melawan radikal bebas. Sumber Nutrisi: Wijen kaya akan nutrisi, termasuk kalsium, magnesium, dan zat besi."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatOlahanWijen",
+      "patterns": [
+        "Minuman wijen",
+        "Olahan wijen",
+        "wijen bisa dibuat apa?",
+        "Minuman dari wijen",
+        "Olahan dari wijen",
+        "Minuman obat wijen",
+        "Olahan obat wijen",
+        "wijen bisa dibuat apa?",
+        "Minuman obat dari wijen",
+        "Olahan obat dari wijen"
+      ],
+      "responses": [
+        "Tahini: Tahini, yang terbuat dari wijen yang dihaluskan, adalah pasta populer yang digunakan dalam masakan Timur Tengah. Susu Wijen: Susu wijen adalah minuman yang terbuat dari ekstrak biji wijen yang biasanya digunakan sebagai alternatif susu nabati."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "obatWijen",
+      "patterns": [
+        "wijen dapat digunakan untuk obat penyakit apa",
+        "wijen obat untuk apa?",
+        "obat dari wijen"
+      ],
+      "responses": [
+        "Menyehatkan Jantung: Asam lemak sehat dalam wijen dapat mendukung kesehatan jantung. Menurunkan Kolesterol: Beberapa penelitian menunjukkan bahwa wijen dapat membantu menurunkan kadar kolesterol. Pemeliharaan Kesehatan Tulang: Kandungan kalsium dalam wijen mendukung kesehatan tulang."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bentukWijen",
+      "patterns": [
+        "Bentuk wijen",
+        "Ciri-ciri wijen",
+        "wijen bentuknya apa?",
+        "Ciri wijen"
+      ],
+      "responses": [
+        "Wijen hadir dalam bentuk biji kecil, datar, dan berwarna coklat atau putih, tergantung pada jenisnya. Biji wijen dapat digunakan dalam bentuk utuh, digongseng, atau dihaluskan menjadi pasta seperti tahini."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "kandunganKimiaWijen",
+      "patterns": [
+        "Kandungan wijen",
+        "Kandungan kimia wijen",
+        "Apa kandungan kimia wijen"
+      ],
+      "responses": [
+        "Kandungan kimia utama dalam wijen meliputi asam lemak omega-3, omega-6, protein, serat, dan berbagai vitamin dan mineral. Senyawa antioksidan, seperti sesamin, juga ditemukan dalam jumlah signifikan."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "daerahPenghasilWijen",
+      "patterns": [
+        "Daerah penghasil wijen",
+        "Penghasil wijen",
+        "Daerah wijen",
+        "Dimana daerah penghasil wijen",
+        "dimana wijen",
+        "dimana dapat menemukan wijen"
+      ],
+      "responses": [
+        "Wijen dapat tumbuh di berbagai daerah tropis dan subtropis, dan beberapa daerah penghasil wijen antara lain adalah India, Cina, dan Sudan."
+      ],
+      "context_set": ""
+    }
+  ]
+}
