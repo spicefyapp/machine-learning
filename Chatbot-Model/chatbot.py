@@ -7,6 +7,9 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 
+nltk.download('punkt')
+nltk.download('wordnet')
+
 lemmatizer = WordNetLemmatizer()
 
 with open("intents.json") as file:
@@ -53,11 +56,11 @@ def get_response(intents_list, intents_json):
     return result
 
 def chat():
-    print("GO! Bot is running!")
+    print("Hallo!, Spicebot is running!")
     while True:
         message = input("")
         ints = predict_class (message)
         res = get_response (ints, intents)
         print (res)
 
-# chat()
+chat()
