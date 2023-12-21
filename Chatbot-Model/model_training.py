@@ -52,6 +52,12 @@ training = np.array(training)
 trainX = training[:, :len(words)]
 trainY = training[:, len(words):]
 
+class myCallback(tf.keras.callbacks.Callback):
+    def on_epoch_end(self, epoch, logs={}):
+        if (logs.get('accuracy') > 0.82):
+            self.model.stop_training = True
+
+callbacks = myCallback()
 
 model = tf.keras.Sequential()
 model.add(tf.keras.layers.Dense(256, input_shape=(len(trainX[0]),), activation = 'relu'))
@@ -65,6 +71,6 @@ model.add(tf.keras.layers.Dense(len(trainY[0]), activation='softmax'))
 sgd = tf.keras.optimizers.SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-hist = model.fit(np.array(trainX), np.array(trainY), epochs=200, batch_size=5, verbose=1)
+hist = model.fit(np.array(trainX), np.array(trainY), epochs=200, batch_size=5, verbose=1, callbacks=[callbacks])
 model.save('chatbot_model.h5', hist)
 print('Done')
