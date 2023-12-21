@@ -32,11 +32,11 @@ Building 2 models with TensorFlow, The first builds a spice classification model
 - [Dataset](https://drive.google.com/drive/folders/1eEb11nuckBn8Y7M5liYey9gyYz4pXYpE?usp=sharing)
 
 ### Training Result
-Model reach 94% validation accuracy
+Model reach 94% validation accuracy <br>
 ![Sample Image](images/accuracy.png) ![Sample Image](images/loss.png)
 
 ### Prediction Test
-Prediction test with cengkeh image
+Prediction test with cengkeh image <br>
 ![Sample Image](images/test.png)
 
 ## Chatbot Model
